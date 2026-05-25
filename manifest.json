@@ -422,6 +422,25 @@
           "file": "ms-edge-139/security-baseline-for-microsoft-edge-139.json"
         }
       ]
+    },
+    {
+      "id": "cis-windows11-v4",
+      "name": "CIS - Intune for Windows 11 (v4.0)",
+      "version": "4.0",
+      "credit": "Jan Mulder (IntuneAdmin)",
+      "license": "MIT (author's interpretation of CIS Benchmark; not affiliated with CIS)",
+      "source": "https://github.com/IntuneAdmin/IntuneBaselines",
+      "platform": "windows10",
+      "policyCount": 1,
+      "totalSettings": 380,
+      "policies": [
+        {
+          "slug": "cis-intune-for-windows-11-v4-0",
+          "sourcePolicy": "CIS - Intune for Windows 11 (v4.0)",
+          "settingCount": 380,
+          "file": "cis-windows11-v4/cis-intune-for-windows-11-v4-0.json"
+        }
+      ]
     }
   ]
 }

@@ -17,6 +17,21 @@ published Settings Catalog exports into a flat structure for runtime consumption
 
 Upstream source: https://github.com/SkipToTheEndpoint/OpenIntuneBaseline
 
+The `cis-windows11-v4` baseline is **derived from [IntuneBaselines](https://github.com/IntuneAdmin/IntuneBaselines)
+by Jan Mulder (IntuneAdmin)**, an author's interpretation of the CIS Benchmark for
+Intune, licensed **MIT**. Re-hosted here under MIT with the notice below; full credit
+for the curation belongs to Jan Mulder. Not affiliated with or endorsed by CIS.
+
+```
+MIT License — Copyright (c) 2025 Jan Mulder
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction... (full text: https://github.com/IntuneAdmin/IntuneBaselines/blob/main/LICENSE)
+```
+
+The `ms-windows-25h2` and `ms-edge-139` baselines are pristine deploy-at-defaults
+snapshots of Microsoft Security Baselines, credited to Microsoft.
+
 ## Structure
 
 ```
