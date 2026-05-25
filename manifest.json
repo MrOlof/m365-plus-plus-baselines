@@ -1,0 +1,389 @@
+{
+  "baselines": [
+    {
+      "id": "oib-windows-v3.8",
+      "name": "OpenIntuneBaseline - Windows",
+      "version": "3.8",
+      "credit": "SkipToTheEndpoint",
+      "license": "GPL-3.0",
+      "source": "https://github.com/SkipToTheEndpoint/OpenIntuneBaseline",
+      "platform": "windows10",
+      "policyCount": 62,
+      "totalSettings": 784,
+      "policies": [
+        {
+          "slug": "es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1",
+          "sourcePolicy": "Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (Audit Mode) - v3.1",
+          "settingCount": 2,
+          "file": "oib-windows/es-attack-surface-reduction-d-asr-rules-audit-mode-v3-1.json"
+        },
+        {
+          "slug": "es-attack-surface-reduction-d-asr-rules-l2-v3-7",
+          "sourcePolicy": "Win - OIB - ES - Attack Surface Reduction - D - ASR Rules (L2) - v3.7",
+          "settingCount": 2,
+          "file": "oib-windows/es-attack-surface-reduction-d-asr-rules-l2-v3-7.json"
+        },
+        {
+          "slug": "es-defender-antivirus-d-av-configuration-v3-3",
+          "sourcePolicy": "Win - OIB - ES - Defender Antivirus - D - AV Configuration - v3.3",
+          "settingCount": 27,
+          "file": "oib-windows/es-defender-antivirus-d-av-configuration-v3-3.json"
+        },
+        {
+          "slug": "es-defender-antivirus-d-security-experience-v3-3",
+          "sourcePolicy": "Win - OIB - ES - Defender Antivirus - D - Security Experience - v3.3",
+          "settingCount": 4,
+          "file": "oib-windows/es-defender-antivirus-d-security-experience-v3-3.json"
+        },
+        {
+          "slug": "es-defender-antivirus-updates-ring-1-pilot-v3-4",
+          "sourcePolicy": "Win - OIB - ES - Defender Antivirus Updates - Ring 1 - Pilot - v3.4",
+          "settingCount": 3,
+          "file": "oib-windows/es-defender-antivirus-updates-ring-1-pilot-v3-4.json"
+        },
+        {
+          "slug": "es-defender-antivirus-updates-ring-2-uat-v3-4",
+          "sourcePolicy": "Win - OIB - ES - Defender Antivirus Updates - Ring 2 - UAT - v3.4",
+          "settingCount": 3,
+          "file": "oib-windows/es-defender-antivirus-updates-ring-2-uat-v3-4.json"
+        },
+        {
+          "slug": "es-defender-antivirus-updates-ring-3-production-v3-4",
+          "sourcePolicy": "Win - OIB - ES - Defender Antivirus Updates - Ring 3 - Production - v3.4",
+          "settingCount": 3,
+          "file": "oib-windows/es-defender-antivirus-updates-ring-3-production-v3-4.json"
+        },
+        {
+          "slug": "es-encryption-d-bitlocker-os-disk-v3-7",
+          "sourcePolicy": "Win - OIB - ES - Encryption - D - BitLocker (OS Disk) - v3.7",
+          "settingCount": 8,
+          "file": "oib-windows/es-encryption-d-bitlocker-os-disk-v3-7.json"
+        },
+        {
+          "slug": "es-encryption-u-personal-data-encryption-v3-4",
+          "sourcePolicy": "Win - OIB - ES - Encryption - U - Personal Data Encryption - v3.4",
+          "settingCount": 1,
+          "file": "oib-windows/es-encryption-u-personal-data-encryption-v3-4.json"
+        },
+        {
+          "slug": "es-local-group-membership-d-local-administrators-v3-7",
+          "sourcePolicy": "Win - OIB - ES - Local Group Membership - D - Local Administrators - v3.7",
+          "settingCount": 1,
+          "file": "oib-windows/es-local-group-membership-d-local-administrators-v3-7.json"
+        },
+        {
+          "slug": "es-windows-firewall-d-firewall-configuration-v3-1",
+          "sourcePolicy": "Win - OIB - ES - Windows Firewall - D - Firewall Configuration - v3.1",
+          "settingCount": 6,
+          "file": "oib-windows/es-windows-firewall-d-firewall-configuration-v3-1.json"
+        },
+        {
+          "slug": "es-windows-firewall-d-security-rules-v3-8",
+          "sourcePolicy": "Win - OIB - ES - Windows Firewall - D - Security Rules - v3.8",
+          "settingCount": 1,
+          "file": "oib-windows/es-windows-firewall-d-security-rules-v3-8.json"
+        },
+        {
+          "slug": "es-windows-hello-for-business-d-whfb-configuration-v3-2",
+          "sourcePolicy": "Win - OIB - ES - Windows Hello for Business - D - WHfB Configuration - v3.2",
+          "settingCount": 2,
+          "file": "oib-windows/es-windows-hello-for-business-d-whfb-configuration-v3-2.json"
+        },
+        {
+          "slug": "es-windows-laps-d-laps-configuration-24h2-v3-6",
+          "sourcePolicy": "Win - OIB - ES - Windows LAPS - D - LAPS Configuration (24H2+) - v3.6",
+          "settingCount": 6,
+          "file": "oib-windows/es-windows-laps-d-laps-configuration-24h2-v3-6.json"
+        },
+        {
+          "slug": "es-windows-laps-d-laps-configuration-v3-1",
+          "sourcePolicy": "Win - OIB - ES - Windows LAPS - D - LAPS Configuration - v3.1",
+          "settingCount": 5,
+          "file": "oib-windows/es-windows-laps-d-laps-configuration-v3-1.json"
+        },
+        {
+          "slug": "sc-credential-management-d-passwordless-v3-3",
+          "sourcePolicy": "Win - OIB - SC - Credential Management - D - Passwordless - v3.3",
+          "settingCount": 3,
+          "file": "oib-windows/sc-credential-management-d-passwordless-v3-3.json"
+        },
+        {
+          "slug": "sc-defender-antivirus-d-additional-configuration-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Defender Antivirus - D - Additional Configuration - v3.8",
+          "settingCount": 9,
+          "file": "oib-windows/sc-defender-antivirus-d-additional-configuration-v3-8.json"
+        },
+        {
+          "slug": "sc-device-security-d-administrator-protection-v3-7",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Administrator Protection - v3.7",
+          "settingCount": 2,
+          "file": "oib-windows/sc-device-security-d-administrator-protection-v3-7.json"
+        },
+        {
+          "slug": "sc-device-security-d-audit-and-event-logging-v3-7",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Audit and Event Logging - v3.7",
+          "settingCount": 36,
+          "file": "oib-windows/sc-device-security-d-audit-and-event-logging-v3-7.json"
+        },
+        {
+          "slug": "sc-device-security-d-config-refresh-v3-2",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Config Refresh - v3.2",
+          "settingCount": 1,
+          "file": "oib-windows/sc-device-security-d-config-refresh-v3-2.json"
+        },
+        {
+          "slug": "sc-device-security-d-enhanced-phishing-protection-v3-0",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Enhanced Phishing Protection - v3.0",
+          "settingCount": 4,
+          "file": "oib-windows/sc-device-security-d-enhanced-phishing-protection-v3-0.json"
+        },
+        {
+          "slug": "sc-device-security-d-local-security-policies-24h2-v3-6",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Local Security Policies (24H2+) - v3.6",
+          "settingCount": 23,
+          "file": "oib-windows/sc-device-security-d-local-security-policies-24h2-v3-6.json"
+        },
+        {
+          "slug": "sc-device-security-d-local-security-policies-v3-0",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Local Security Policies - v3.0",
+          "settingCount": 23,
+          "file": "oib-windows/sc-device-security-d-local-security-policies-v3-0.json"
+        },
+        {
+          "slug": "sc-device-security-d-location-and-privacy-v3-2",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Location and Privacy - v3.2",
+          "settingCount": 3,
+          "file": "oib-windows/sc-device-security-d-location-and-privacy-v3-2.json"
+        },
+        {
+          "slug": "sc-device-security-d-login-and-lock-screen-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Login and Lock Screen - v3.8",
+          "settingCount": 8,
+          "file": "oib-windows/sc-device-security-d-login-and-lock-screen-v3-8.json"
+        },
+        {
+          "slug": "sc-device-security-d-printing-v3-7",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Printing - v3.7",
+          "settingCount": 8,
+          "file": "oib-windows/sc-device-security-d-printing-v3-7.json"
+        },
+        {
+          "slug": "sc-device-security-d-remote-desktop-services-and-rpc-v3-0",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Remote Desktop Services and RPC - v3.0",
+          "settingCount": 9,
+          "file": "oib-windows/sc-device-security-d-remote-desktop-services-and-rpc-v3-0.json"
+        },
+        {
+          "slug": "sc-device-security-d-script-file-associations-v3-4",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Script File Associations - v3.4",
+          "settingCount": 1,
+          "file": "oib-windows/sc-device-security-d-script-file-associations-v3-4.json"
+        },
+        {
+          "slug": "sc-device-security-d-security-hardening-v3-7",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Security Hardening - v3.7",
+          "settingCount": 80,
+          "file": "oib-windows/sc-device-security-d-security-hardening-v3-7.json"
+        },
+        {
+          "slug": "sc-device-security-d-timezone-v3-4",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Timezone - v3.4",
+          "settingCount": 3,
+          "file": "oib-windows/sc-device-security-d-timezone-v3-4.json"
+        },
+        {
+          "slug": "sc-device-security-d-user-rights-v3-7",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - User Rights - v3.7",
+          "settingCount": 25,
+          "file": "oib-windows/sc-device-security-d-user-rights-v3-7.json"
+        },
+        {
+          "slug": "sc-device-security-d-windows-package-manager-v3-5",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Windows Package Manager  - v3.5",
+          "settingCount": 5,
+          "file": "oib-windows/sc-device-security-d-windows-package-manager-v3-5.json"
+        },
+        {
+          "slug": "sc-device-security-d-windows-subsystem-for-linux-v3-2",
+          "sourcePolicy": "Win - OIB - SC - Device Security - D - Windows Subsystem for Linux - v3.2",
+          "settingCount": 10,
+          "file": "oib-windows/sc-device-security-d-windows-subsystem-for-linux-v3-2.json"
+        },
+        {
+          "slug": "sc-device-security-u-device-guard-credential-guard-and-hvci-v3-7",
+          "sourcePolicy": "Win - OIB - SC - Device Security - U - Device Guard, Credential Guard and HVCI - v3.7",
+          "settingCount": 8,
+          "file": "oib-windows/sc-device-security-u-device-guard-credential-guard-and-hvci-v3-7.json"
+        },
+        {
+          "slug": "sc-device-security-u-power-and-device-lock-v3-6",
+          "sourcePolicy": "Win - OIB - SC - Device Security - U - Power and Device Lock - v3.6",
+          "settingCount": 8,
+          "file": "oib-windows/sc-device-security-u-power-and-device-lock-v3-6.json"
+        },
+        {
+          "slug": "sc-device-security-u-windows-sandbox-v3-4",
+          "sourcePolicy": "Win - OIB - SC - Device Security - U - Windows Sandbox - v3.4",
+          "settingCount": 6,
+          "file": "oib-windows/sc-device-security-u-windows-sandbox-v3-4.json"
+        },
+        {
+          "slug": "sc-device-security-u-windows-spotlight-and-org-messages-v3-0",
+          "sourcePolicy": "Win - OIB - SC - Device Security - U - Windows Spotlight and Org Messages - v3.0",
+          "settingCount": 5,
+          "file": "oib-windows/sc-device-security-u-windows-spotlight-and-org-messages-v3-0.json"
+        },
+        {
+          "slug": "sc-internet-explorer-legacy-d-security-v3-1-1",
+          "sourcePolicy": "Win - OIB - SC - Internet Explorer (Legacy) - D - Security - v3.1.1",
+          "settingCount": 118,
+          "file": "oib-windows/sc-internet-explorer-legacy-d-security-v3-1-1.json"
+        },
+        {
+          "slug": "sc-microsoft-accounts-d-configuration-v3-2",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Accounts - D - Configuration - v3.2",
+          "settingCount": 5,
+          "file": "oib-windows/sc-microsoft-accounts-d-configuration-v3-2.json"
+        },
+        {
+          "slug": "sc-microsoft-edge-d-security-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Edge - D - Security - v3.8",
+          "settingCount": 45,
+          "file": "oib-windows/sc-microsoft-edge-d-security-v3-8.json"
+        },
+        {
+          "slug": "sc-microsoft-edge-d-updates-v3-6",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Edge - D - Updates - v3.6",
+          "settingCount": 13,
+          "file": "oib-windows/sc-microsoft-edge-d-updates-v3-6.json"
+        },
+        {
+          "slug": "sc-microsoft-edge-u-extensions-v3-1",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Edge - U - Extensions - v3.1",
+          "settingCount": 4,
+          "file": "oib-windows/sc-microsoft-edge-u-extensions-v3-1.json"
+        },
+        {
+          "slug": "sc-microsoft-edge-u-password-management-v3-0",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Edge - U - Password Management - v3.0",
+          "settingCount": 4,
+          "file": "oib-windows/sc-microsoft-edge-u-password-management-v3-0.json"
+        },
+        {
+          "slug": "sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Edge - U - Profiles, Sign-In and Sync - v3.0",
+          "settingCount": 8,
+          "file": "oib-windows/sc-microsoft-edge-u-profiles-sign-in-and-sync-v3-0.json"
+        },
+        {
+          "slug": "sc-microsoft-edge-u-user-experience-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Edge - U - User Experience - v3.8",
+          "settingCount": 16,
+          "file": "oib-windows/sc-microsoft-edge-u-user-experience-v3-8.json"
+        },
+        {
+          "slug": "sc-microsoft-office-d-security-v3-6",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Office - D - Security - v3.6",
+          "settingCount": 17,
+          "file": "oib-windows/sc-microsoft-office-d-security-v3-6.json"
+        },
+        {
+          "slug": "sc-microsoft-office-d-updates-v3-0",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Office - D - Updates - v3.0",
+          "settingCount": 4,
+          "file": "oib-windows/sc-microsoft-office-d-updates-v3-0.json"
+        },
+        {
+          "slug": "sc-microsoft-office-u-config-and-experience-v3-6",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Office - U - Config and Experience - v3.6",
+          "settingCount": 25,
+          "file": "oib-windows/sc-microsoft-office-u-config-and-experience-v3-6.json"
+        },
+        {
+          "slug": "sc-microsoft-office-u-security-v3-6",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Office - U - Security - v3.6",
+          "settingCount": 108,
+          "file": "oib-windows/sc-microsoft-office-u-security-v3-6.json"
+        },
+        {
+          "slug": "sc-microsoft-onedrive-d-configuration-v3-2",
+          "sourcePolicy": "Win - OIB - SC - Microsoft OneDrive - D - Configuration - v3.2",
+          "settingCount": 10,
+          "file": "oib-windows/sc-microsoft-onedrive-d-configuration-v3-2.json"
+        },
+        {
+          "slug": "sc-microsoft-onedrive-u-configuration-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Microsoft OneDrive - U - Configuration - v3.8",
+          "settingCount": 5,
+          "file": "oib-windows/sc-microsoft-onedrive-u-configuration-v3-8.json"
+        },
+        {
+          "slug": "sc-microsoft-store-d-configuration-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Store - D - Configuration - v3.8",
+          "settingCount": 7,
+          "file": "oib-windows/sc-microsoft-store-d-configuration-v3-8.json"
+        },
+        {
+          "slug": "sc-microsoft-store-u-configuration-v3-3",
+          "sourcePolicy": "Win - OIB - SC - Microsoft Store - U - Configuration - v3.3",
+          "settingCount": 3,
+          "file": "oib-windows/sc-microsoft-store-u-configuration-v3-3.json"
+        },
+        {
+          "slug": "sc-network-security-d-disable-ntlm-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Network Security - D - Disable NTLM - v3.8",
+          "settingCount": 3,
+          "file": "oib-windows/sc-network-security-d-disable-ntlm-v3-8.json"
+        },
+        {
+          "slug": "sc-windows-apps-d-in-box-app-removal-v3-7",
+          "sourcePolicy": "Win - OIB - SC - Windows Apps - D - In-Box App Removal - v3.7",
+          "settingCount": 1,
+          "file": "oib-windows/sc-windows-apps-d-in-box-app-removal-v3-7.json"
+        },
+        {
+          "slug": "sc-windows-hello-for-business-d-cloud-kerberos-trust-v3-5",
+          "sourcePolicy": "Win - OIB - SC - Windows Hello for Business - D - Cloud Kerberos Trust - v3.5",
+          "settingCount": 2,
+          "file": "oib-windows/sc-windows-hello-for-business-d-cloud-kerberos-trust-v3-5.json"
+        },
+        {
+          "slug": "sc-windows-update-for-business-d-delivery-optimisation-v3-0",
+          "sourcePolicy": "Win - OIB - SC - Windows Update for Business - D - Delivery Optimisation - v3.0",
+          "settingCount": 12,
+          "file": "oib-windows/sc-windows-update-for-business-d-delivery-optimisation-v3-0.json"
+        },
+        {
+          "slug": "sc-windows-update-for-business-d-reports-and-telemetry-v3-0",
+          "sourcePolicy": "Win - OIB - SC - Windows Update for Business - D - Reports and Telemetry - v3.0",
+          "settingCount": 5,
+          "file": "oib-windows/sc-windows-update-for-business-d-reports-and-telemetry-v3-0.json"
+        },
+        {
+          "slug": "sc-windows-user-experience-d-automatic-restart-sign-on-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Windows User Experience - D - Automatic Restart Sign-On - v3.8",
+          "settingCount": 2,
+          "file": "oib-windows/sc-windows-user-experience-d-automatic-restart-sign-on-v3-8.json"
+        },
+        {
+          "slug": "sc-windows-user-experience-d-feature-configuration-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Windows User Experience - D - Feature Configuration - v3.8",
+          "settingCount": 8,
+          "file": "oib-windows/sc-windows-user-experience-d-feature-configuration-v3-8.json"
+        },
+        {
+          "slug": "sc-windows-user-experience-d-settings-sync-v3-7",
+          "sourcePolicy": "Win - OIB - SC - Windows User Experience - D - Settings Sync - v3.7",
+          "settingCount": 3,
+          "file": "oib-windows/sc-windows-user-experience-d-settings-sync-v3-7.json"
+        },
+        {
+          "slug": "sc-windows-user-experience-u-copilot-v3-8",
+          "sourcePolicy": "Win - OIB - SC - Windows User Experience - U - Copilot - v3.8",
+          "settingCount": 2,
+          "file": "oib-windows/sc-windows-user-experience-u-copilot-v3-8.json"
+        }
+      ]
+    }
+  ]
+}

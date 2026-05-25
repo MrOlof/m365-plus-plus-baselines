@@ -1,0 +1,65 @@
+{
+  "sourcePolicy": "Win - OIB - ES - Encryption - U - Personal Data Encryption - v3.4",
+  "settingCount": 1,
+  "settings": [
+    {
+      "settingDefinitionId": "user_vendor_msft_pde_enablepersonaldataencryption",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "user_vendor_msft_pde_enablepersonaldataencryption",
+        "settingInstanceTemplateReference": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingInstanceTemplateReference",
+          "settingInstanceTemplateId": "1ba5dce6-3ba0-40f3-bde3-811ed766c14a"
+        },
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "value": "user_vendor_msft_pde_enablepersonaldataencryption_1",
+          "settingValueTemplateReference": {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingValueTemplateReference",
+            "settingValueTemplateId": "c3620b1d-8ddc-4ca7-a7b5-2a4e7d985be7",
+            "useTemplateDefault": false
+          },
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "user_vendor_msft_pde_protectfolders_protectpictures",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "settingValueTemplateReference": null,
+                "value": "user_vendor_msft_pde_protectfolders_protectpictures_1",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                "children": []
+              }
+            },
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "user_vendor_msft_pde_protectfolders_protectdocuments",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "settingValueTemplateReference": null,
+                "value": "user_vendor_msft_pde_protectfolders_protectdocuments_1",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                "children": []
+              }
+            },
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+              "settingDefinitionId": "user_vendor_msft_pde_protectfolders_protectdesktop",
+              "settingInstanceTemplateReference": null,
+              "choiceSettingValue": {
+                "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+                "settingValueTemplateReference": null,
+                "value": "user_vendor_msft_pde_protectfolders_protectdesktop_1",
+                "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                "children": []
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}
