@@ -384,6 +384,44 @@
           "file": "oib-windows/sc-windows-user-experience-u-copilot-v3-8.json"
         }
       ]
+    },
+    {
+      "id": "ms-windows-25h2",
+      "name": "Security Baseline for Windows 10 and later - 25H2",
+      "version": "25H2",
+      "credit": "Microsoft",
+      "license": "Microsoft product content (Security Baseline, deployed at default values)",
+      "source": "https://learn.microsoft.com/mem/intune/protect/security-baselines",
+      "platform": "windows10",
+      "policyCount": 1,
+      "totalSettings": 327,
+      "policies": [
+        {
+          "slug": "security-baseline-for-windows-10-and-later-25h2",
+          "sourcePolicy": "Security Baseline for Windows 10 and later - 25H2",
+          "settingCount": 327,
+          "file": "ms-windows-25h2/security-baseline-for-windows-10-and-later-25h2.json"
+        }
+      ]
+    },
+    {
+      "id": "ms-edge-139",
+      "name": "Security Baseline for Microsoft Edge - 139",
+      "version": "139",
+      "credit": "Microsoft",
+      "license": "Microsoft product content (Security Baseline, deployed at default values)",
+      "source": "https://learn.microsoft.com/mem/intune/protect/security-baselines",
+      "platform": "windows10",
+      "policyCount": 1,
+      "totalSettings": 19,
+      "policies": [
+        {
+          "slug": "security-baseline-for-microsoft-edge-139",
+          "sourcePolicy": "Security Baseline for Microsoft Edge - 139",
+          "settingCount": 19,
+          "file": "ms-edge-139/security-baseline-for-microsoft-edge-139.json"
+        }
+      ]
     }
   ]
 }
