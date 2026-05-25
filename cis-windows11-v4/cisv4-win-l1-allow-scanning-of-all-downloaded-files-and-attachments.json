@@ -1,0 +1,21 @@
+{
+  "sourcePolicy": "CISv4 - WIN - L1 - Allow scanning of all downloaded files and  attachments",
+  "settingCount": 1,
+  "settings": [
+    {
+      "settingDefinitionId": "device_vendor_msft_policy_config_defender_allowioavprotection",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_defender_allowioavprotection",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_defender_allowioavprotection_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      }
+    }
+  ]
+}

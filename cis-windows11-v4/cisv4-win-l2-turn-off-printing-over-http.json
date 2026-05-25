@@ -1,0 +1,21 @@
+{
+  "sourcePolicy": "CISv4 - WIN - L2 - Turn off printing over HTTP",
+  "settingCount": 1,
+  "settings": [
+    {
+      "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_diableprintingoverhttp",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_diableprintingoverhttp",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_connectivity_diableprintingoverhttp_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      }
+    }
+  ]
+}

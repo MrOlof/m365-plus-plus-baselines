@@ -1,0 +1,28 @@
+{
+  "sourcePolicy": "CISv4 - WIN - L1 - Post-authentication actions",
+  "settingCount": 1,
+  "settings": [
+    {
+      "settingDefinitionId": "device_vendor_msft_laps_policies_postauthenticationactions",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_laps_policies_postauthenticationactions",
+        "settingInstanceTemplateReference": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingInstanceTemplateReference",
+          "settingInstanceTemplateId": "d9282eb1-d187-42ae-b366-7081f32dcfff"
+        },
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "value": "device_vendor_msft_laps_policies_postauthenticationactions_3",
+          "settingValueTemplateReference": {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationSettingValueTemplateReference",
+            "settingValueTemplateId": "68ff4f78-baa8-4b32-bf3d-5ad5566d8142",
+            "useTemplateDefault": false
+          },
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      }
+    }
+  ]
+}

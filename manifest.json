@@ -431,14 +431,2288 @@
       "license": "MIT (author's interpretation of CIS Benchmark; not affiliated with CIS)",
       "source": "https://github.com/IntuneAdmin/IntuneBaselines",
       "platform": "windows10",
-      "policyCount": 1,
+      "policyCount": 380,
       "totalSettings": 380,
       "policies": [
         {
-          "slug": "cis-intune-for-windows-11-v4-0",
-          "sourcePolicy": "CIS - Intune for Windows 11 (v4.0)",
-          "settingCount": 380,
-          "file": "cis-windows11-v4/cis-intune-for-windows-11-v4-0.json"
+          "slug": "cisv4-choose-how-bitlocker-protected-operating-system-drives-can-be-recovered-require-48-digit-recovery-password",
+          "sourcePolicy": "CISv4 - Choose how BitLocker-protected  operating system drives can be recovered  Require 48-digit recovery password",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-choose-how-bitlocker-protected-operating-system-drives-can-be-recovered-require-48-digit-recovery-password.json"
+        },
+        {
+          "slug": "cisv4-win-l1-service-enabled",
+          "sourcePolicy": "CISv4 - WIN - L1 -  Service Enabled",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-service-enabled.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-rpc-connection-settings-use-authentication-for-outgoing-rpc-connections",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'Configure RPC connection settings: Use  authentication for outgoing RPC connections",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-rpc-connection-settings-use-authentication-for-outgoing-rpc-connections.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-rpc-listener-settings-protocols-to-allow-for-incoming-rpc-connections",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'Configure RPC listener settings: Protocols to  allow for incoming RPC connections",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-rpc-listener-settings-protocols-to-allow-for-incoming-rpc-connections.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-domain-network-firewall-default-inbound-action-for-domain-profile",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'Enable Domain Network Firewall: Default  Inbound Action for Domain Profile",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-domain-network-firewall-default-inbound-action-for-domain-profile.json"
+        },
+        {
+          "slug": "cisv4-win-l1-microsoft-network-client-digitally-sign-communications-if-server-agrees",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'Microsoft network client: Digitally sign  communications (if server agrees)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-microsoft-network-client-digitally-sign-communications-if-server-agrees.json"
+        },
+        {
+          "slug": "cisv4-win-l1-mss-disableipsourcerouting-ip-source-routing-protection-level-protects-against-packet-spoofing",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'MSS: (DisableIPSourceRouting) IP source  routing protection level (protects against packet spoofing)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-mss-disableipsourcerouting-ip-source-routing-protection-level-protects-against-packet-spoofing.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-security-minimum-session-security-for-ntlmssp-based-servers",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'Network Security Minimum Session Security  For NTLMSSP Based Servers",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-security-minimum-session-security-for-ntlmssp-based-servers.json"
+        },
+        {
+          "slug": "cisv4-win-l1-pua-protection",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'PUA Protection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-pua-protection.json"
+        },
+        {
+          "slug": "cisv4-win-l1-remote-host-allows-delegation-of-non-exportable-credentials",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'Remote host allows delegation of non exportable credentials",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-remote-host-allows-delegation-of-non-exportable-credentials.json"
+        },
+        {
+          "slug": "cisv4-win-l1-user-account-control-behavior-of-the-elevation-prompt-for-standard-users",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'User Account Control: Behavior of the  elevation prompt for standard users",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-user-account-control-behavior-of-the-elevation-prompt-for-standard-users.json"
+        },
+        {
+          "slug": "cisv4-win-l1-user-account-control-only-elevate-uiaccess-applications-that-are-installed-in-secure-locations",
+          "sourcePolicy": "CISv4 - WIN - L1 - 'User Account Control: Only elevate UIAccess  applications that are installed in secure locations",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-user-account-control-only-elevate-uiaccess-applications-that-are-installed-in-secure-locations.json"
+        },
+        {
+          "slug": "cisv4-win-l1-access-credential-manager-as-trusted-caller",
+          "sourcePolicy": "CISv4 - WIN - L1 - Access Credential Manager As Trusted Caller",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-access-credential-manager-as-trusted-caller.json"
+        },
+        {
+          "slug": "cisv4-win-l1-access-from-network",
+          "sourcePolicy": "CISv4 - WIN - L1 - Access From Network",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-access-from-network.json"
+        },
+        {
+          "slug": "cisv4-win-l1-account-logon-audit-credential-validation",
+          "sourcePolicy": "CISv4 - WIN - L1 - Account Logon Audit Credential Validation",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-account-logon-audit-credential-validation.json"
+        },
+        {
+          "slug": "cisv4-win-l1-account-logon-logoff-audit-account-lockout",
+          "sourcePolicy": "CISv4 - WIN - L1 - Account Logon Logoff Audit Account Lockout",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-account-logon-logoff-audit-account-lockout.json"
+        },
+        {
+          "slug": "cisv4-win-l1-account-logon-logoff-audit-group-membership",
+          "sourcePolicy": "CISv4 - WIN - L1 - Account Logon Logoff Audit Group Membership",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-account-logon-logoff-audit-group-membership.json"
+        },
+        {
+          "slug": "cisv4-win-l1-account-logon-logoff-audit-logoff",
+          "sourcePolicy": "CISv4 - WIN - L1 - Account Logon Logoff Audit Logoff",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-account-logon-logoff-audit-logoff.json"
+        },
+        {
+          "slug": "cisv4-win-l1-account-logon-logoff-audit-logon",
+          "sourcePolicy": "CISv4 - WIN - L1 - Account Logon Logoff Audit Logon",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-account-logon-logoff-audit-logon.json"
+        },
+        {
+          "slug": "cisv4-win-l1-account-management-audit-application-group-management",
+          "sourcePolicy": "CISv4 - WIN - L1 - Account Management Audit Application Group  Management'",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-account-management-audit-application-group-management.json"
+        },
+        {
+          "slug": "cisv4-win-l1-accounts-enable-guest-account-status",
+          "sourcePolicy": "CISv4 - WIN - L1 - Accounts: Enable Guest account status",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-accounts-enable-guest-account-status.json"
+        },
+        {
+          "slug": "cisv4-win-l1-accounts-limit-local-account-use-of-blank-passwords-to-console-logon-only",
+          "sourcePolicy": "CISv4 - WIN - L1 - Accounts: Limit local account use of blank  passwords to console logon only'",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-accounts-limit-local-account-use-of-blank-passwords-to-console-logon-only.json"
+        },
+        {
+          "slug": "cisv4-win-l1-accounts-rename-administrator-account",
+          "sourcePolicy": "CISv4 - WIN - L1 - Accounts: Rename administrator account",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-accounts-rename-administrator-account.json"
+        },
+        {
+          "slug": "cisv4-win-l1-accounts-rename-guest-account",
+          "sourcePolicy": "CISv4 - WIN - L1 - Accounts: Rename guest account",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-accounts-rename-guest-account.json"
+        },
+        {
+          "slug": "cisv4-win-l1-act-as-part-of-the-operating-system",
+          "sourcePolicy": "CISv4 - WIN - L1 - Act As Part Of The Operating System",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-act-as-part-of-the-operating-system.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-apps-from-the-microsoft-app-store-to-auto-update",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow apps from the Microsoft app store to auto  update",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-apps-from-the-microsoft-app-store-to-auto-update.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-auto-connect-to-wi-fi-sense-hotspots",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Auto Connect To Wi Fi Sense Hotspots",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-auto-connect-to-wi-fi-sense-hotspots.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-auto-update",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Auto Update",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-auto-update.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-basic-authentication-winrm-client",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Basic authentication WinRM Client",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-basic-authentication-winrm-client.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-basic-authentication-winrm-service",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Basic authentication WinRM Service",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-basic-authentication-winrm-service.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-behavior-monitoring",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Behavior Monitoring",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-behavior-monitoring.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-clipboard-redirection",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Clipboard Redirection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-clipboard-redirection.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-cortana-above-lock",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Cortana Above Lock",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-cortana-above-lock.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-cortana",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Cortana",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-cortana.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-email-scanning",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Email Scanning",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-email-scanning.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-full-scan-removable-drive-scanning",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Full Scan Removable Drive Scanning",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-full-scan-removable-drive-scanning.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-game-dvr",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Game DVR",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-game-dvr.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-indexing-encrypted-stores-or-items",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Indexing Encrypted Stores Or Items",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-indexing-encrypted-stores-or-items.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-input-personalization",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Input Personalization",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-input-personalization.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-local-log-on",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Local Log On",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-local-log-on.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-microsoft-accounts-to-be-optional",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Microsoft accounts to be optional",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-microsoft-accounts-to-be-optional.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-networking",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Networking",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-networking.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-print-spooler-to-accept-client-connections",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Print Spooler to accept client  connections",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-print-spooler-to-accept-client-connections.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-realtime-monitoring",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Realtime Monitoring",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-realtime-monitoring.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-scanning-of-all-downloaded-files-and-attachments",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow scanning of all downloaded files and  attachments",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-scanning-of-all-downloaded-files-and-attachments.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-script-scanning",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Script Scanning",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-script-scanning.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-search-to-use-location",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Search To Use Location",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-search-to-use-location.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-spotlight-collection-user",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Spotlight Collection (User)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-spotlight-collection-user.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-telemetry",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Telemetry",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-telemetry.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-unencrypted-traffic-winrm-client",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow unencrypted traffic WinRM Client",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-unencrypted-traffic-winrm-client.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-unencrypted-traffic-winrm-service",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow unencrypted traffic WinRM Service",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-unencrypted-traffic-winrm-service.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-widgets",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow widgets",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-widgets.json"
+        },
+        {
+          "slug": "cisv4-win-l1-allow-windows-ink-workspace",
+          "sourcePolicy": "CISv4 - WIN - L1 - Allow Windows Ink Workspace",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-allow-windows-ink-workspace.json"
+        },
+        {
+          "slug": "cisv4-win-l1-always-prompt-for-password-upon-connection",
+          "sourcePolicy": "CISv4 - WIN - L1 - Always prompt for password upon connection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-always-prompt-for-password-upon-connection.json"
+        },
+        {
+          "slug": "cisv4-win-l1-apply-uac-restrictions-to-local-accounts-on-network-logons",
+          "sourcePolicy": "CISv4 - WIN - L1 - Apply UAC restrictions to local accounts on  network logons",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-apply-uac-restrictions-to-local-accounts-on-network-logons.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-abuse-of-exploited-vulnerable-signed-drivers",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block abuse of exploited vulnerable  signed drivers",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-abuse-of-exploited-vulnerable-signed-drivers.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-adobe-reader-from-creating-child-processes",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block Adobe Reader from creating child  processes",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-adobe-reader-from-creating-child-processes.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-all-office-applications-from-creating-child-processes",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block all Office applications from creating  child processes",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-all-office-applications-from-creating-child-processes.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-credential-stealing-from-the-windows-local-security-authority-subsystem",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block credential stealing from the  Windows local security authority subsystem",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-credential-stealing-from-the-windows-local-security-authority-subsystem.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-executable-content-from-email-client-and-webmail",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block executable content from email  client and webmail",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-executable-content-from-email-client-and-webmail.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block executable files from running  unless they meet a prevalence, age, or trusted list criterion'",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-executable-files-from-running-unless-they-meet-a-prevalence-age-or-trusted-list-criterion.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-execution-of-potentially-obfuscated-scripts",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block execution of potentially obfuscated  scripts",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-execution-of-potentially-obfuscated-scripts.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-javascript-or-vbscript-from-launching-downloaded-executable-content",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block JavaScript or VBScript from  launching downloaded executable content",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-javascript-or-vbscript-from-launching-downloaded-executable-content.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-office-applications-from-injecting-code-into-other-processes",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block Office applications from injecting  code into other processes",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-office-applications-from-injecting-code-into-other-processes.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-office-communication-application-from-creating-child-processes",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block Office communication application  from creating child processes",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-office-communication-application-from-creating-child-processes.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-persistence-through-wmi-event-subscription",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block persistence through WMI event  subscription",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-persistence-through-wmi-event-subscription.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-process-creations-originating-from-psexec-and-wmi-commands",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block process creations originating from  PSExec and WMI commands",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-process-creations-originating-from-psexec-and-wmi-commands.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-untrusted-and-unsigned-processes-that-run-from-usb",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block untrusted and unsigned processes  that run from USB",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-untrusted-and-unsigned-processes-that-run-from-usb.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-block-win32-api-calls-from-office-macros",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Block Win32 API calls from Office  macros",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-block-win32-api-calls-from-office-macros.json"
+        },
+        {
+          "slug": "cisv4-win-l1-asr-use-advanced-protection-against-ransomware",
+          "sourcePolicy": "CISv4 - WIN - L1 - ASR: Use advanced protection against  ransomware",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-asr-use-advanced-protection-against-ransomware.json"
+        },
+        {
+          "slug": "cisv4-win-l1-audit-authentication-policy-change",
+          "sourcePolicy": "CISv4 - WIN - L1 - Audit Authentication Policy Change",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-audit-authentication-policy-change.json"
+        },
+        {
+          "slug": "cisv4-win-l1-audit-authorization-policy-change",
+          "sourcePolicy": "CISv4 - WIN - L1 - Audit Authorization Policy Change",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-audit-authorization-policy-change.json"
+        },
+        {
+          "slug": "cisv4-win-l1-audit-changes-to-audit-policy",
+          "sourcePolicy": "CISv4 - WIN - L1 - Audit Changes to Audit Policy",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-audit-changes-to-audit-policy.json"
+        },
+        {
+          "slug": "cisv4-win-l1-audit-file-share-access",
+          "sourcePolicy": "CISv4 - WIN - L1 - Audit File Share Access",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-audit-file-share-access.json"
+        },
+        {
+          "slug": "cisv4-win-l1-audit-other-logon-logoff-events",
+          "sourcePolicy": "CISv4 - WIN - L1 - Audit Other Logon Logoff Events",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-audit-other-logon-logoff-events.json"
+        },
+        {
+          "slug": "cisv4-win-l1-audit-security-group-management",
+          "sourcePolicy": "CISv4 - WIN - L1 - Audit Security Group Management",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-audit-security-group-management.json"
+        },
+        {
+          "slug": "cisv4-win-l1-audit-security-system-extension",
+          "sourcePolicy": "CISv4 - WIN - L1 - Audit Security System Extension",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-audit-security-system-extension.json"
+        },
+        {
+          "slug": "cisv4-win-l1-audit-special-logon",
+          "sourcePolicy": "CISv4 - WIN - L1 - Audit Special Logon",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-audit-special-logon.json"
+        },
+        {
+          "slug": "cisv4-win-l1-audit-user-account-management",
+          "sourcePolicy": "CISv4 - WIN - L1 - Audit User Account Management",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-audit-user-account-management.json"
+        },
+        {
+          "slug": "cisv4-win-l1-backup-directory",
+          "sourcePolicy": "CISv4 - WIN - L1 - Backup Directory",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-backup-directory.json"
+        },
+        {
+          "slug": "cisv4-win-l1-backup-files-and-directories",
+          "sourcePolicy": "CISv4 - WIN - L1 - Backup Files And Directories",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-backup-files-and-directories.json"
+        },
+        {
+          "slug": "cisv4-win-l1-block-all-consumer-microsoft-account-user-authentication",
+          "sourcePolicy": "CISv4 - WIN - L1 - Block all consumer Microsoft account user  authentication",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-block-all-consumer-microsoft-account-user-authentication.json"
+        },
+        {
+          "slug": "cisv4-win-l1-block-launching-universal-windows-apps-with-windows-runtime-api-access-from-hosted-content",
+          "sourcePolicy": "CISv4 - WIN - L1 - Block launching Universal Windows apps  with Windows Runtime API access from hosted content",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-block-launching-universal-windows-apps-with-windows-runtime-api-access-from-hosted-content.json"
+        },
+        {
+          "slug": "cisv4-win-l1-block-non-admin-user-install",
+          "sourcePolicy": "CISv4 - WIN - L1 - Block Non Admin User Install",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-block-non-admin-user-install.json"
+        },
+        {
+          "slug": "cisv4-win-l1-block-office-applications-from-creating-executable-content",
+          "sourcePolicy": "CISv4 - WIN - L1 - Block Office applications from creating  executable content",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-block-office-applications-from-creating-executable-content.json"
+        },
+        {
+          "slug": "cisv4-win-l1-block-user-from-showing-account-details-on-sign-in",
+          "sourcePolicy": "CISv4 - WIN - L1 - Block user from showing account details  on sign-in",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-block-user-from-showing-account-details-on-sign-in.json"
+        },
+        {
+          "slug": "cisv4-win-l1-boot-start-driver-initialization-policy",
+          "sourcePolicy": "CISv4 - WIN - L1 - Boot-Start Driver Initialization Policy",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-boot-start-driver-initialization-policy.json"
+        },
+        {
+          "slug": "cisv4-win-l1-change-system-time",
+          "sourcePolicy": "CISv4 - WIN - L1 - Change System Time",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-change-system-time.json"
+        },
+        {
+          "slug": "cisv4-win-l1-config-refresh",
+          "sourcePolicy": "CISv4 - WIN - L1 - Config refresh",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-config-refresh.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-local-setting-override-for-reporting-to-microsoft-maps",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure local setting override for  reporting to Microsoft MAPS",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-local-setting-override-for-reporting-to-microsoft-maps.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-lsa-protected-process-is-set-to-enabled-with-uefi-lock",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure Lsa Protected Process is set to  'Enabled with UEFI Lock...",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-lsa-protected-process-is-set-to-enabled-with-uefi-lock.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-offer-remote-assistance",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure Offer Remote Assistance",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-offer-remote-assistance.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-redirection-guard-redirection-guard-options",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure Redirection Guard: Redirection  Guard Options",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-redirection-guard-redirection-guard-options.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-rpc-connection-settings-protocol-to-use-for-outgoing-rpc-connections",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure RPC connection settings: Protocol to  use for outgoing RPC connections",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-rpc-connection-settings-protocol-to-use-for-outgoing-rpc-connections.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-rpc-listener-settings-authentication-protocol-to-use-for-incoming-rpc-connections",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure RPC listener settings: Authentication  protocol to use for incoming RPC connections",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-rpc-listener-settings-authentication-protocol-to-use-for-incoming-rpc-connections.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-rpc-over-tcp-port-rpc-over-tcp-port",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure RPC over TCP port: RPC over TCP  port",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-rpc-over-tcp-port-rpc-over-tcp-port.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-smb-v1-client-driver",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure SMB v1 client driver",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-smb-v1-client-driver.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-smb-v1-server",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure SMB v1 server",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-smb-v1-server.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-solicited-remote-assistance",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure Solicited Remote Assistance",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-solicited-remote-assistance.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-system-guard-launch",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure System Guard Launch",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-system-guard-launch.json"
+        },
+        {
+          "slug": "cisv4-win-l1-configure-windows-defender-smartscreen",
+          "sourcePolicy": "CISv4 - WIN - L1 - Configure Windows Defender  SmartScreen",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-configure-windows-defender-smartscreen.json"
+        },
+        {
+          "slug": "cisv4-win-l1-continue-experiences-on-this-device",
+          "sourcePolicy": "CISv4 - WIN - L1 - Continue experiences on this device",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-continue-experiences-on-this-device.json"
+        },
+        {
+          "slug": "cisv4-win-l1-control-event-log-behavior-when-the-log-file-reaches-its-maximum-size-security",
+          "sourcePolicy": "CISv4 - WIN - L1 - Control Event Log behavior when the log  file reaches its maximum size Security",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-control-event-log-behavior-when-the-log-file-reaches-its-maximum-size-security.json"
+        },
+        {
+          "slug": "cisv4-win-l1-control-event-log-behavior-when-the-log-file-reaches-its-maximum-size-setup",
+          "sourcePolicy": "CISv4 - WIN - L1 - Control Event Log behavior when the log  file reaches its maximum size Setup",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-control-event-log-behavior-when-the-log-file-reaches-its-maximum-size-setup.json"
+        },
+        {
+          "slug": "cisv4-win-l1-control-event-log-behavior-when-the-log-file-reaches-its-maximum-size-system",
+          "sourcePolicy": "CISv4 - WIN - L1 - Control Event Log behavior when the log  file reaches its maximum size System",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-control-event-log-behavior-when-the-log-file-reaches-its-maximum-size-system.json"
+        },
+        {
+          "slug": "cisv4-win-l1-control-event-log-behavior-when-the-log-file-reaches-its-maximum-size",
+          "sourcePolicy": "CISv4 - WIN - L1 - Control Event Log behavior when the log  file reaches its maximum size",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-control-event-log-behavior-when-the-log-file-reaches-its-maximum-size.json"
+        },
+        {
+          "slug": "cisv4-win-l1-create-global-objects",
+          "sourcePolicy": "CISv4 - WIN - L1 - Create Global Objects",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-create-global-objects.json"
+        },
+        {
+          "slug": "cisv4-win-l1-create-page-file",
+          "sourcePolicy": "CISv4 - WIN - L1 - Create Page File",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-create-page-file.json"
+        },
+        {
+          "slug": "cisv4-win-l1-create-permanent-shared-objects",
+          "sourcePolicy": "CISv4 - WIN - L1 - Create Permanent Shared Objects",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-create-permanent-shared-objects.json"
+        },
+        {
+          "slug": "cisv4-win-l1-create-symbolic-links",
+          "sourcePolicy": "CISv4 - WIN - L1 - Create Symbolic Links",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-create-symbolic-links.json"
+        },
+        {
+          "slug": "cisv4-win-l1-create-token",
+          "sourcePolicy": "CISv4 - WIN - L1 - Create Token",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-create-token.json"
+        },
+        {
+          "slug": "cisv4-win-l1-credential-guard",
+          "sourcePolicy": "CISv4 - WIN - L1 - Credential Guard",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-credential-guard.json"
+        },
+        {
+          "slug": "cisv4-win-l1-days-until-aggressive-catchup-quick-scan",
+          "sourcePolicy": "CISv4 - WIN - L1 - Days Until Aggressive Catchup Quick Scan",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-days-until-aggressive-catchup-quick-scan.json"
+        },
+        {
+          "slug": "cisv4-win-l1-debug-programs",
+          "sourcePolicy": "CISv4 - WIN - L1 - Debug Programs",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-debug-programs.json"
+        },
+        {
+          "slug": "cisv4-win-l1-defer-feature-updates-period-in-days",
+          "sourcePolicy": "CISv4 - WIN - L1 - Defer Feature Updates Period in Days",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-defer-feature-updates-period-in-days.json"
+        },
+        {
+          "slug": "cisv4-win-l1-defer-quality-updates-period-days",
+          "sourcePolicy": "CISv4 - WIN - L1 - Defer Quality Updates Period (Days)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-defer-quality-updates-period-days.json"
+        },
+        {
+          "slug": "cisv4-win-l1-deny-access-from-network",
+          "sourcePolicy": "CISv4 - WIN - L1 - Deny Access From Network",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-deny-access-from-network.json"
+        },
+        {
+          "slug": "cisv4-win-l1-deny-local-log-on",
+          "sourcePolicy": "CISv4 - WIN - L1 - Deny Local Log On",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-deny-local-log-on.json"
+        },
+        {
+          "slug": "cisv4-win-l1-deny-log-on-as-batch-job",
+          "sourcePolicy": "CISv4 - WIN - L1 - Deny Log On As Batch Job",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-deny-log-on-as-batch-job.json"
+        },
+        {
+          "slug": "cisv4-win-l1-deny-log-on-as-service-job",
+          "sourcePolicy": "CISv4 - WIN - L1 - Deny Log On As Service Job",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-deny-log-on-as-service-job.json"
+        },
+        {
+          "slug": "cisv4-win-l1-deny-remote-desktop-services-log-on",
+          "sourcePolicy": "CISv4 - WIN - L1 - Deny Remote Desktop Services Log On",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-deny-remote-desktop-services-log-on.json"
+        },
+        {
+          "slug": "cisv4-win-l1-detailed-tracking-audit-pnp-activity",
+          "sourcePolicy": "CISv4 - WIN - L1 - Detailed Tracking Audit PNP Activity",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-detailed-tracking-audit-pnp-activity.json"
+        },
+        {
+          "slug": "cisv4-win-l1-detailed-tracking-audit-process-creation",
+          "sourcePolicy": "CISv4 - WIN - L1 - Detailed Tracking Audit Process Creation",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-detailed-tracking-audit-process-creation.json"
+        },
+        {
+          "slug": "cisv4-win-l1-device-password-enabled-alphanumeric-device-password-required",
+          "sourcePolicy": "CISv4 - WIN - L1 - Device Password Enabled: Alphanumeric  Device Password Required",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-device-password-enabled-alphanumeric-device-password-required.json"
+        },
+        {
+          "slug": "cisv4-win-l1-device-password-enabled-device-password-expiration",
+          "sourcePolicy": "CISv4 - WIN - L1 - Device Password Enabled: Device Password  Expiration",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-device-password-enabled-device-password-expiration.json"
+        },
+        {
+          "slug": "cisv4-win-l1-device-password-enabled-device-password-history",
+          "sourcePolicy": "CISv4 - WIN - L1 - Device Password Enabled: Device Password  History",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-device-password-enabled-device-password-history.json"
+        },
+        {
+          "slug": "cisv4-win-l1-device-password-enabled-max-device-password-failed-attempts",
+          "sourcePolicy": "CISv4 - WIN - L1 - Device Password Enabled: Max Device  Password Failed Attempts",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-device-password-enabled-max-device-password-failed-attempts.json"
+        },
+        {
+          "slug": "cisv4-win-l1-device-password-enabled-max-inactivity-time-device-lock",
+          "sourcePolicy": "CISv4 - WIN - L1 - Device Password Enabled: Max Inactivity Time  Device Lock",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-device-password-enabled-max-inactivity-time-device-lock.json"
+        },
+        {
+          "slug": "cisv4-win-l1-device-password-enabled-min-device-password-complex-characters",
+          "sourcePolicy": "CISv4 - WIN - L1 - Device Password Enabled: Min Device  Password Complex Characters",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-device-password-enabled-min-device-password-complex-characters.json"
+        },
+        {
+          "slug": "cisv4-win-l1-device-password-enabled-min-device-password-length",
+          "sourcePolicy": "CISv4 - WIN - L1 - Device Password Enabled: Min Device  Password Length",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-device-password-enabled-min-device-password-length.json"
+        },
+        {
+          "slug": "cisv4-win-l1-device-password-enabled",
+          "sourcePolicy": "CISv4 - WIN - L1 - Device Password Enabled",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-device-password-enabled.json"
+        },
+        {
+          "slug": "cisv4-win-l1-disable-consumer-account-state-content",
+          "sourcePolicy": "CISv4 - WIN - L1 - Disable Consumer Account State Content",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-disable-consumer-account-state-content.json"
+        },
+        {
+          "slug": "cisv4-win-l1-disallow-autoplay-for-non-volume-devices",
+          "sourcePolicy": "CISv4 - WIN - L1 - Disallow Autoplay for non-volume devices",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-disallow-autoplay-for-non-volume-devices.json"
+        },
+        {
+          "slug": "cisv4-win-l1-disallow-digest-authentication-winrm-client",
+          "sourcePolicy": "CISv4 - WIN - L1 - Disallow Digest authentication WinRM Client",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-disallow-digest-authentication-winrm-client.json"
+        },
+        {
+          "slug": "cisv4-win-l1-disallow-exploit-protection-override",
+          "sourcePolicy": "CISv4 - WIN - L1 - Disallow Exploit Protection Override",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-disallow-exploit-protection-override.json"
+        },
+        {
+          "slug": "cisv4-win-l1-disallow-winrm-from-storing-runas-credentials-winrm-service",
+          "sourcePolicy": "CISv4 - WIN - L1 - Disallow WinRM from storing RunAs  credentials WinRM Service",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-disallow-winrm-from-storing-runas-credentials-winrm-service.json"
+        },
+        {
+          "slug": "cisv4-win-l1-do-download-mode",
+          "sourcePolicy": "CISv4 - WIN - L1 - DO Download Mode",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-do-download-mode.json"
+        },
+        {
+          "slug": "cisv4-win-l1-do-not-allow-drive-redirection",
+          "sourcePolicy": "CISv4 - WIN - L1 - Do not allow drive redirection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-do-not-allow-drive-redirection.json"
+        },
+        {
+          "slug": "cisv4-win-l1-do-not-allow-passwords-to-be-saved",
+          "sourcePolicy": "CISv4 - WIN - L1 - Do not allow passwords to be saved",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-do-not-allow-passwords-to-be-saved.json"
+        },
+        {
+          "slug": "cisv4-win-l1-do-not-delete-temp-folders-upon-exit",
+          "sourcePolicy": "CISv4 - WIN - L1 - Do not delete temp folders upon exit",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-do-not-delete-temp-folders-upon-exit.json"
+        },
+        {
+          "slug": "cisv4-win-l1-do-not-display-network-selection-ui",
+          "sourcePolicy": "CISv4 - WIN - L1 - Do not display network selection UI",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-do-not-display-network-selection-ui.json"
+        },
+        {
+          "slug": "cisv4-win-l1-do-not-display-the-password-reveal-button",
+          "sourcePolicy": "CISv4 - WIN - L1 - Do not display the password reveal button",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-do-not-display-the-password-reveal-button.json"
+        },
+        {
+          "slug": "cisv4-win-l1-do-not-enumerate-connected-users-on-domain-joined-computers",
+          "sourcePolicy": "CISv4 - WIN - L1 - Do not enumerate connected users on  domain-joined computers",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-do-not-enumerate-connected-users-on-domain-joined-computers.json"
+        },
+        {
+          "slug": "cisv4-win-l1-do-not-preserve-zone-information-in-file-attachments-user",
+          "sourcePolicy": "CISv4 - WIN - L1 - Do not preserve zone information in file  attachments (User)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-do-not-preserve-zone-information-in-file-attachments-user.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-app-installer-experimental-features",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable App Installer Experimental  Features",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-app-installer-experimental-features.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-app-installer-hash-override",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable App Installer Hash Override",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-app-installer-hash-override.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-app-installer-ms-appinstaller-protocol",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable App Installer ms-appinstaller  protocol",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-app-installer-ms-appinstaller-protocol.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-delegation",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Delegation",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-delegation.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-domain-network-firewall-disable-inbound-notifications",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Domain Network Firewall: Disable  Inbound Notifications",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-domain-network-firewall-disable-inbound-notifications.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-domain-network-firewall-enable-log-dropped-packets",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Domain Network Firewall: Enable Log  Dropped Packets",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-domain-network-firewall-enable-log-dropped-packets.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-domain-network-firewall-enable-log-success-connections",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Domain Network Firewall: Enable Log  Success Connections",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-domain-network-firewall-enable-log-success-connections.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-domain-network-firewall-log-file-path-is-set-to-systemroot-system32-logfiles-firewall-domainfw-log",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Domain Network Firewall: Log File Path'  is set to '%SystemRoot%\\System32\\logfiles\\firewall\\domainfw.log",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-domain-network-firewall-log-file-path-is-set-to-systemroot-system32-logfiles-firewall-domainfw-log.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-domain-network-firewall-log-max-file-size",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Domain Network Firewall: Log Max File  Size",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-domain-network-firewall-log-max-file-size.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-domain-network-firewall",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Domain Network Firewall",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-domain-network-firewall.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-ess-with-supported-peripherals",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable ESS with Supported Peripherals",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-ess-with-supported-peripherals.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-insecure-guest-logons",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable insecure guest logons",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-insecure-guest-logons.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-mpr-notifications-for-the-system",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable MPR notifications for the system",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-mpr-notifications-for-the-system.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-network-protection",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Network Protection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-network-protection.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-onesettings-auditing",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable OneSettings Auditing",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-onesettings-auditing.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-private-network-firewall-default-inbound-action-for-private-profile",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Private Network Firewall: Default  Inbound Action for Private Profile",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-private-network-firewall-default-inbound-action-for-private-profile.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-private-network-firewall-disable-inbound-notifications",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Private Network Firewall: Disable  Inbound Notifications",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-private-network-firewall-disable-inbound-notifications.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-private-network-firewall-enable-log-dropped-packets",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Private Network Firewall: Enable Log  Dropped Packets",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-private-network-firewall-enable-log-dropped-packets.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-private-network-firewall-enable-log-success-connections",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Private Network Firewall: Enable Log  Success Connections",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-private-network-firewall-enable-log-success-connections.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-private-network-firewall-log-file-path-is-set-to-systemroot-system32-logfiles-firewall-privatefw-log",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Private Network Firewall: Log File  Path' is set to  '%SystemRoot%\\System32\\logfiles\\firewall\\privatefw.log",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-private-network-firewall-log-file-path-is-set-to-systemroot-system32-logfiles-firewall-privatefw-log.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-private-network-firewall-log-max-file-size",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Private Network Firewall: Log Max File  Size",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-private-network-firewall-log-max-file-size.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-private-network-firewall",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Private Network Firewall",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-private-network-firewall.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-public-network-firewall-allow-local-ipsec-policy-merge",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Public Network Firewall: Allow Local  Ipsec Policy Merge",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-public-network-firewall-allow-local-ipsec-policy-merge.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-public-network-firewall-allow-local-policy-merge",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Public Network Firewall: Allow Local  Policy Merge",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-public-network-firewall-allow-local-policy-merge.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-public-network-firewall-default-inbound-action-for-public-profile",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Public Network Firewall: Default  Inbound Action for Public Profile",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-public-network-firewall-default-inbound-action-for-public-profile.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-public-network-firewall-disable-inbound-notifications",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Public Network Firewall: Disable  Inbound Notifications",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-public-network-firewall-disable-inbound-notifications.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-public-network-firewall-enable-log-dropped-packets",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Public Network Firewall: Enable Log  Dropped Packets",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-public-network-firewall-enable-log-dropped-packets.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-public-network-firewall-enable-log-success-connections",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Public Network Firewall: Enable Log  Success Connections",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-public-network-firewall-enable-log-success-connections.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-public-network-firewall-log-file-path-is-set-to-systemroot-system32-logfiles-firewall-publicfw-log",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Public Network Firewall: Log File Path'  is set to '%SystemRoot%\\System32\\logfiles\\firewall\\publicfw.log",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-public-network-firewall-log-file-path-is-set-to-systemroot-system32-logfiles-firewall-publicfw-log.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-public-network-firewall-log-max-file-size",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Public Network Firewall: Log Max File  Size",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-public-network-firewall-log-max-file-size.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-public-network-firewall",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Public Network Firewall",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-public-network-firewall.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-rpc-endpoint-mapper-client-authentication",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable RPC Endpoint Mapper Client  Authentication",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-rpc-endpoint-mapper-client-authentication.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-structured-exception-handling-overwrite-protection-sehop",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Structured Exception Handling  Overwrite Protection (SEHOP)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-structured-exception-handling-overwrite-protection-sehop.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-sudo",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Sudo",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-sudo.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-virtualization-based-security",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Virtualization Based Security",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-virtualization-based-security.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-windows-ntp-client",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Windows NTP Client",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-windows-ntp-client.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enable-windows-ntp-server",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enable Windows NTP Server",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enable-windows-ntp-server.json"
+        },
+        {
+          "slug": "cisv4-win-l1-encryption-oracle-remediation",
+          "sourcePolicy": "CISv4 - WIN - L1 - Encryption Oracle Remediation",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-encryption-oracle-remediation.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enumerate-administrator-accounts-on-elevation",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enumerate administrator accounts on  elevation",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enumerate-administrator-accounts-on-elevation.json"
+        },
+        {
+          "slug": "cisv4-win-l1-enumerate-local-users-on-domain-joined-computers",
+          "sourcePolicy": "CISv4 - WIN - L1 - Enumerate local users on domain-joined  computers",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-enumerate-local-users-on-domain-joined-computers.json"
+        },
+        {
+          "slug": "cisv4-win-l1-facial-features-use-enhanced-anti-spoofing",
+          "sourcePolicy": "CISv4 - WIN - L1 - Facial Features Use Enhanced Anti Spoofing",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-facial-features-use-enhanced-anti-spoofing.json"
+        },
+        {
+          "slug": "cisv4-win-l1-generate-security-audits",
+          "sourcePolicy": "CISv4 - WIN - L1 - Generate Security Audits",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-generate-security-audits.json"
+        },
+        {
+          "slug": "cisv4-win-l1-hardened-unc-paths",
+          "sourcePolicy": "CISv4 - WIN - L1 - Hardened UNC Paths",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-hardened-unc-paths.json"
+        },
+        {
+          "slug": "cisv4-win-l1-hide-exclusions-from-local-users",
+          "sourcePolicy": "CISv4 - WIN - L1 - Hide Exclusions From Local Users",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-hide-exclusions-from-local-users.json"
+        },
+        {
+          "slug": "cisv4-win-l1-hypervisor-enforced-code-integrity",
+          "sourcePolicy": "CISv4 - WIN - L1 - Hypervisor Enforced Code Integrity",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-hypervisor-enforced-code-integrity.json"
+        },
+        {
+          "slug": "cisv4-win-l1-impersonate-client",
+          "sourcePolicy": "CISv4 - WIN - L1 - Impersonate Client",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-impersonate-client.json"
+        },
+        {
+          "slug": "cisv4-win-l1-include-command-line-in-process-creation-events",
+          "sourcePolicy": "CISv4 - WIN - L1 - Include command line in process creation  events",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-include-command-line-in-process-creation-events.json"
+        },
+        {
+          "slug": "cisv4-win-l1-increase-scheduling-priority",
+          "sourcePolicy": "CISv4 - WIN - L1 - Increase Scheduling Priority",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-increase-scheduling-priority.json"
+        },
+        {
+          "slug": "cisv4-win-l1-interactive-logon-do-not-display-last-signed-in",
+          "sourcePolicy": "CISv4 - WIN - L1 - Interactive logon: Do not display last signed-in",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-interactive-logon-do-not-display-last-signed-in.json"
+        },
+        {
+          "slug": "cisv4-win-l1-interactive-logon-do-not-require-ctrl-alt-del",
+          "sourcePolicy": "CISv4 - WIN - L1 - Interactive logon: Do not require  CTRL+ALT+DEL",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-interactive-logon-do-not-require-ctrl-alt-del.json"
+        },
+        {
+          "slug": "cisv4-win-l1-interactive-logon-machine-inactivity-limit",
+          "sourcePolicy": "CISv4 - WIN - L1 - Interactive logon: Machine inactivity limit",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-interactive-logon-machine-inactivity-limit.json"
+        },
+        {
+          "slug": "cisv4-win-l1-interactive-logon-message-text-for-users-attempting-to-log-on",
+          "sourcePolicy": "CISv4 - WIN - L1 - Interactive logon: Message text for users  attempting to log on",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-interactive-logon-message-text-for-users-attempting-to-log-on.json"
+        },
+        {
+          "slug": "cisv4-win-l1-interactive-logon-message-title-for-users-attempting-to-log-on",
+          "sourcePolicy": "CISv4 - WIN - L1 - Interactive logon: Message title for users  attempting to log on",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-interactive-logon-message-title-for-users-attempting-to-log-on.json"
+        },
+        {
+          "slug": "cisv4-win-l1-interactive-logon-smart-card-removal-behavior",
+          "sourcePolicy": "CISv4 - WIN - L1 - Interactive logon: Smart card removal  behavior",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-interactive-logon-smart-card-removal-behavior.json"
+        },
+        {
+          "slug": "cisv4-win-l1-let-apps-activate-with-voice-above-lock",
+          "sourcePolicy": "CISv4 - WIN - L1 - Let Apps Activate With Voice Above Lock",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-let-apps-activate-with-voice-above-lock.json"
+        },
+        {
+          "slug": "cisv4-win-l1-limit-diagnostic-log-collection",
+          "sourcePolicy": "CISv4 - WIN - L1 - Limit Diagnostic Log Collection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-limit-diagnostic-log-collection.json"
+        },
+        {
+          "slug": "cisv4-win-l1-limit-dump-collection",
+          "sourcePolicy": "CISv4 - WIN - L1 - Limit Dump Collection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-limit-dump-collection.json"
+        },
+        {
+          "slug": "cisv4-win-l1-limits-print-driver-installation-to-administrators",
+          "sourcePolicy": "CISv4 - WIN - L1 - Limits print driver installation to Administrators",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-limits-print-driver-installation-to-administrators.json"
+        },
+        {
+          "slug": "cisv4-win-l1-load-unload-device-drivers",
+          "sourcePolicy": "CISv4 - WIN - L1 - Load Unload Device Drivers",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-load-unload-device-drivers.json"
+        },
+        {
+          "slug": "cisv4-win-l1-lock-memory",
+          "sourcePolicy": "CISv4 - WIN - L1 - Lock Memory",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-lock-memory.json"
+        },
+        {
+          "slug": "cisv4-win-l1-manage-auditing-and-security-log",
+          "sourcePolicy": "CISv4 - WIN - L1 - Manage auditing and security log",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-manage-auditing-and-security-log.json"
+        },
+        {
+          "slug": "cisv4-win-l1-manage-preview-builds",
+          "sourcePolicy": "CISv4 - WIN - L1 - Manage preview builds",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-manage-preview-builds.json"
+        },
+        {
+          "slug": "cisv4-win-l1-manage-processing-of-queue-specific-files-manage-processing-of-queue-specific-files",
+          "sourcePolicy": "CISv4 - WIN - L1 - Manage processing of Queue-specific files:  Manage processing of Queue-Specific files",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-manage-processing-of-queue-specific-files-manage-processing-of-queue-specific-files.json"
+        },
+        {
+          "slug": "cisv4-win-l1-manage-volume",
+          "sourcePolicy": "CISv4 - WIN - L1 - Manage Volume",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-manage-volume.json"
+        },
+        {
+          "slug": "cisv4-win-l1-microsoft-network-client-digitally-sign-communications-always",
+          "sourcePolicy": "CISv4 - WIN - L1 - Microsoft network client: Digitally sign  communications (always)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-microsoft-network-client-digitally-sign-communications-always.json"
+        },
+        {
+          "slug": "cisv4-win-l1-microsoft-network-client-send-unencrypted-password-to-third-party-smb-servers",
+          "sourcePolicy": "CISv4 - WIN - L1 - Microsoft network client: Send unencrypted  password to third-party SMB servers",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-microsoft-network-client-send-unencrypted-password-to-third-party-smb-servers.json"
+        },
+        {
+          "slug": "cisv4-win-l1-microsoft-network-server-digitally-sign-communications-always",
+          "sourcePolicy": "CISv4 - WIN - L1 - Microsoft network server: Digitally sign  communications (always)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-microsoft-network-server-digitally-sign-communications-always.json"
+        },
+        {
+          "slug": "cisv4-win-l1-microsoft-network-server-digitally-sign-communications-if-client-agrees",
+          "sourcePolicy": "CISv4 - WIN - L1 - Microsoft network server: Digitally sign  communications (if client agrees)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-microsoft-network-server-digitally-sign-communications-if-client-agrees.json"
+        },
+        {
+          "slug": "cisv4-win-l1-minimize-the-number-of-simultaneous-connections-to-the-internet-or-a-windows-domain",
+          "sourcePolicy": "CISv4 - WIN - L1 - Minimize the number of simultaneous  connections to the Internet or a Windows Domain",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-minimize-the-number-of-simultaneous-connections-to-the-internet-or-a-windows-domain.json"
+        },
+        {
+          "slug": "cisv4-win-l1-minimum-password-age",
+          "sourcePolicy": "CISv4 - WIN - L1 - Minimum Password Age",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-minimum-password-age.json"
+        },
+        {
+          "slug": "cisv4-win-l1-minimum-pin-length",
+          "sourcePolicy": "CISv4 - WIN - L1 - Minimum PIN Length",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-minimum-pin-length.json"
+        },
+        {
+          "slug": "cisv4-win-l1-modify-firmware-environment",
+          "sourcePolicy": "CISv4 - WIN - L1 - Modify Firmware Environment",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-modify-firmware-environment.json"
+        },
+        {
+          "slug": "cisv4-win-l1-modify-object-label",
+          "sourcePolicy": "CISv4 - WIN - L1 - Modify Object Label",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-modify-object-label.json"
+        },
+        {
+          "slug": "cisv4-win-l1-msi-allow-user-control-over-installs",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSI Allow user control over installs",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-msi-allow-user-control-over-installs.json"
+        },
+        {
+          "slug": "cisv4-win-l1-msi-always-install-with-elevated-privileges-user",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSI Always install with elevated privileges  (User)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-msi-always-install-with-elevated-privileges-user.json"
+        },
+        {
+          "slug": "cisv4-win-l1-msi-always-install-with-elevated-privileges",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSI Always install with elevated privileges",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-msi-always-install-with-elevated-privileges.json"
+        },
+        {
+          "slug": "cisv4-win-l1-mss-autoadminlogon-enable-automatic-logon-not-recommended",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSS: (AutoAdminLogon) Enable Automatic  Logon (not recommended)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-mss-autoadminlogon-enable-automatic-logon-not-recommended.json"
+        },
+        {
+          "slug": "cisv4-win-l1-mss-disableipsourcerouting-ipv6-ip-source-routing-protection-level-protects-against-packet-spoofing",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSS: (DisableIPSourceRouting IPv6) IP  source routing protection level (protects against packet spoofing)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-mss-disableipsourcerouting-ipv6-ip-source-routing-protection-level-protects-against-packet-spoofing.json"
+        },
+        {
+          "slug": "cisv4-win-l1-mss-enableicmpredirect-allow-icmp-redirects-to-override-ospf-generated-routes",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSS: (EnableICMPRedirect) Allow ICMP  redirects to override OSPF generated routes",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-mss-enableicmpredirect-allow-icmp-redirects-to-override-ospf-generated-routes.json"
+        },
+        {
+          "slug": "cisv4-win-l1-mss-nonamereleaseondemand-allow-the-computer-to-ignore-netbios-name-release-requests-except-from-wins-servers",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSS: (NoNameReleaseOnDemand) Allow the  computer to ignore NetBIOS name release requests except from  WINS servers",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-mss-nonamereleaseondemand-allow-the-computer-to-ignore-netbios-name-release-requests-except-from-wins-servers.json"
+        },
+        {
+          "slug": "cisv4-win-l1-mss-safedllsearchmode-enable-safe-dll-search-mode-recommended",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSS: (SafeDllSearchMode) Enable Safe DLL  search mode (recommended)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-mss-safedllsearchmode-enable-safe-dll-search-mode-recommended.json"
+        },
+        {
+          "slug": "cisv4-win-l1-mss-screensavergraceperiod-the-time-in-seconds-before-the-screen-saver-grace-period-expires-0-recommended",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSS: (ScreenSaverGracePeriod) The time in  seconds before the screen saver grace period expires (0  recommended)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-mss-screensavergraceperiod-the-time-in-seconds-before-the-screen-saver-grace-period-expires-0-recommended.json"
+        },
+        {
+          "slug": "cisv4-win-l1-mss-warninglevel-percentage-threshold-for-the-security-event-log-at-which-the-system-will-generate-a-warning",
+          "sourcePolicy": "CISv4 - WIN - L1 - MSS: (WarningLevel) Percentage threshold  for the security event log at which the system will generate a  warning",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-mss-warninglevel-percentage-threshold-for-the-security-event-log-at-which-the-system-will-generate-a-warning.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-access-do-not-allow-anonymous-enumeration-of-sam-accounts-and-shares",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network access: Do not allow anonymous  enumeration of SAM accounts and shares",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-access-do-not-allow-anonymous-enumeration-of-sam-accounts-and-shares.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-access-do-not-allow-anonymous-enumeration-of-sam-accounts",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network access: Do not allow anonymous  enumeration of SAM accounts",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-access-do-not-allow-anonymous-enumeration-of-sam-accounts.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-access-restrict-anonymous-access-to-named-pipes-and-shares",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network access: Restrict anonymous access  to Named Pipes and Shares",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-access-restrict-anonymous-access-to-named-pipes-and-shares.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-access-restrict-clients-allowed-to-make-remote-calls-to-sam",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network access: Restrict clients allowed to  make remote calls to SAM",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-access-restrict-clients-allowed-to-make-remote-calls-to-sam.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-security-allow-local-system-to-use-computer-identity-for-ntlm",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network security: Allow Local System to use  computer identity for NTLM",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-security-allow-local-system-to-use-computer-identity-for-ntlm.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-security-allow-pku2u-authentication-requests",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network Security: Allow PKU2U authentication  requests",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-security-allow-pku2u-authentication-requests.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-security-do-not-store-lan-manager-hash-value-on-next-password-change",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network security: Do not store LAN Manager  hash value on next password change",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-security-do-not-store-lan-manager-hash-value-on-next-password-change.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-security-lan-manager-authentication-level",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network security: LAN Manager authentication  level",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-security-lan-manager-authentication-level.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-security-minimum-session-security-for-ntlmssp-based-clients",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network Security Minimum Session Security  For NTLMSSP Based Clients",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-security-minimum-session-security-for-ntlmssp-based-clients.json"
+        },
+        {
+          "slug": "cisv4-win-l1-network-security-restrict-ntlm-audit-incoming-ntlm-traffic",
+          "sourcePolicy": "CISv4 - WIN - L1 - Network security: Restrict NTLM: Audit  Incoming NTLM Traffic",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-network-security-restrict-ntlm-audit-incoming-ntlm-traffic.json"
+        },
+        {
+          "slug": "cisv4-win-l1-notify-antivirus-programs-when-opening-attachments-user",
+          "sourcePolicy": "CISv4 - WIN - L1 - Notify antivirus programs when opening  attachments (User)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-notify-antivirus-programs-when-opening-attachments-user.json"
+        },
+        {
+          "slug": "cisv4-win-l1-notify-malicious",
+          "sourcePolicy": "CISv4 - WIN - L1 - Notify Malicious",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-notify-malicious.json"
+        },
+        {
+          "slug": "cisv4-win-l1-notify-password-reuse",
+          "sourcePolicy": "CISv4 - WIN - L1 - Notify Password Reuse",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-notify-password-reuse.json"
+        },
+        {
+          "slug": "cisv4-win-l1-notify-unsafe-app",
+          "sourcePolicy": "CISv4 - WIN - L1 - Notify Unsafe App",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-notify-unsafe-app.json"
+        },
+        {
+          "slug": "cisv4-win-l1-object-access-audit-detailed-file-share",
+          "sourcePolicy": "CISv4 - WIN - L1 - Object Access Audit Detailed File Share",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-object-access-audit-detailed-file-share.json"
+        },
+        {
+          "slug": "cisv4-win-l1-object-access-audit-other-object-access-events",
+          "sourcePolicy": "CISv4 - WIN - L1 - Object Access Audit Other Object Access  Events",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-object-access-audit-other-object-access-events.json"
+        },
+        {
+          "slug": "cisv4-win-l1-object-access-audit-removable-storage",
+          "sourcePolicy": "CISv4 - WIN - L1 - Object Access Audit Removable Storage",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-object-access-audit-removable-storage.json"
+        },
+        {
+          "slug": "cisv4-win-l1-oobe-enable-rtp-and-sig-update",
+          "sourcePolicy": "CISv4 - WIN - L1 - Oobe Enable Rtp And Sig Update",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-oobe-enable-rtp-and-sig-update.json"
+        },
+        {
+          "slug": "cisv4-win-l1-password-age-days",
+          "sourcePolicy": "CISv4 - WIN - L1 - Password Age Days",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-password-age-days.json"
+        },
+        {
+          "slug": "cisv4-win-l1-password-complexity",
+          "sourcePolicy": "CISv4 - WIN - L1 - Password Complexity",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-password-complexity.json"
+        },
+        {
+          "slug": "cisv4-win-l1-password-length",
+          "sourcePolicy": "CISv4 - WIN - L1 - Password Length",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-password-length.json"
+        },
+        {
+          "slug": "cisv4-win-l1-pause-updates",
+          "sourcePolicy": "CISv4 - WIN - L1 - Pause Updates",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-pause-updates.json"
+        },
+        {
+          "slug": "cisv4-win-l1-point-and-print-restrictions-when-installing-drivers-for-a-new-connection",
+          "sourcePolicy": "CISv4 - WIN - L1 - Point and Print Restrictions: When installing  drivers for a new connection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-point-and-print-restrictions-when-installing-drivers-for-a-new-connection.json"
+        },
+        {
+          "slug": "cisv4-win-l1-point-and-print-restrictions-when-updating-drivers-for-an-existing-connection",
+          "sourcePolicy": "CISv4 - WIN - L1 - Point and Print Restrictions: When updating  drivers for an existing connection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-point-and-print-restrictions-when-updating-drivers-for-an-existing-connection.json"
+        },
+        {
+          "slug": "cisv4-win-l1-policy-change-audit-mpssvc-rule-level-policy-change",
+          "sourcePolicy": "CISv4 - WIN - L1 - Policy Change Audit MPSSVC Rule Level  Policy Change",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-policy-change-audit-mpssvc-rule-level-policy-change.json"
+        },
+        {
+          "slug": "cisv4-win-l1-policy-change-audit-other-policy-change-events",
+          "sourcePolicy": "CISv4 - WIN - L1 - Policy Change Audit Other Policy Change  Events",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-policy-change-audit-other-policy-change-events.json"
+        },
+        {
+          "slug": "cisv4-win-l1-post-authentication-reset-delay",
+          "sourcePolicy": "CISv4 - WIN - L1 - Post Authentication Reset Delay",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-post-authentication-reset-delay.json"
+        },
+        {
+          "slug": "cisv4-win-l1-post-authentication-actions",
+          "sourcePolicy": "CISv4 - WIN - L1 - Post-authentication actions",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-post-authentication-actions.json"
+        },
+        {
+          "slug": "cisv4-win-l1-prevent-device-metadata-retrieval-from-the-internet",
+          "sourcePolicy": "CISv4 - WIN - L1 - Prevent device metadata retrieval from the  Internet",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-prevent-device-metadata-retrieval-from-the-internet.json"
+        },
+        {
+          "slug": "cisv4-win-l1-prevent-downloading-of-enclosures",
+          "sourcePolicy": "CISv4 - WIN - L1 - Prevent downloading of enclosures",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-prevent-downloading-of-enclosures.json"
+        },
+        {
+          "slug": "cisv4-win-l1-prevent-enabling-lock-screen-camera",
+          "sourcePolicy": "CISv4 - WIN - L1 - Prevent enabling lock screen camera",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-prevent-enabling-lock-screen-camera.json"
+        },
+        {
+          "slug": "cisv4-win-l1-prevent-enabling-lock-screen-slide-show",
+          "sourcePolicy": "CISv4 - WIN - L1 - Prevent enabling lock screen slide show",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-prevent-enabling-lock-screen-slide-show.json"
+        },
+        {
+          "slug": "cisv4-win-l1-prevent-the-use-of-security-questions-for-local-accounts",
+          "sourcePolicy": "CISv4 - WIN - L1 - Prevent the use of security questions for  local accounts",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-prevent-the-use-of-security-questions-for-local-accounts.json"
+        },
+        {
+          "slug": "cisv4-win-l1-prevent-users-from-sharing-files-within-their-profile-user",
+          "sourcePolicy": "CISv4 - WIN - L1 - Prevent users from sharing files within  their profile. (User)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-prevent-users-from-sharing-files-within-their-profile-user.json"
+        },
+        {
+          "slug": "cisv4-win-l1-privilege-use-audit-sensitive-privilege-use",
+          "sourcePolicy": "CISv4 - WIN - L1 - Privilege Use Audit Sensitive Privilege Use",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-privilege-use-audit-sensitive-privilege-use.json"
+        },
+        {
+          "slug": "cisv4-win-l1-profile-single-process",
+          "sourcePolicy": "CISv4 - WIN - L1 - Profile Single Process",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-profile-single-process.json"
+        },
+        {
+          "slug": "cisv4-win-l1-profile-system-performance",
+          "sourcePolicy": "CISv4 - WIN - L1 - Profile System Performance",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-profile-system-performance.json"
+        },
+        {
+          "slug": "cisv4-win-l1-prohibit-connection-to-non-domain-networks-when-connected-to-domain-authenticated-network",
+          "sourcePolicy": "CISv4 - WIN - L1 - Prohibit connection to non-domain networks  when connected to domain authenticated network",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-prohibit-connection-to-non-domain-networks-when-connected-to-domain-authenticated-network.json"
+        },
+        {
+          "slug": "cisv4-win-l1-prohibit-installation-and-configuration-of-network-bridge-on-your-dns-domain-network",
+          "sourcePolicy": "CISv4 - WIN - L1 - Prohibit installation and configuration of  Network Bridge on your DNS domain network",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-prohibit-installation-and-configuration-of-network-bridge-on-your-dns-domain-network.json"
+        },
+        {
+          "slug": "cisv4-win-l1-prohibit-use-of-internet-connection-sharing-on-your-dns-domain-network",
+          "sourcePolicy": "CISv4 - WIN - L1 - Prohibit use of Internet Connection Sharing  on your DNS domain network",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-prohibit-use-of-internet-connection-sharing-on-your-dns-domain-network.json"
+        },
+        {
+          "slug": "cisv4-win-l1-quick-scan-include-exclusions",
+          "sourcePolicy": "CISv4 - WIN - L1 - Quick Scan Include Exclusions",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-quick-scan-include-exclusions.json"
+        },
+        {
+          "slug": "cisv4-win-l1-refresh-cadence",
+          "sourcePolicy": "CISv4 - WIN - L1 - Refresh cadence",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-refresh-cadence.json"
+        },
+        {
+          "slug": "cisv4-win-l1-remote-encryption-protection-configured-state",
+          "sourcePolicy": "CISv4 - WIN - L1 - Remote Encryption Protection Configured  State",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-remote-encryption-protection-configured-state.json"
+        },
+        {
+          "slug": "cisv4-win-l1-remote-shutdown",
+          "sourcePolicy": "CISv4 - WIN - L1 - Remote Shutdown",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-remote-shutdown.json"
+        },
+        {
+          "slug": "cisv4-win-l1-replace-process-level-token",
+          "sourcePolicy": "CISv4 - WIN - L1 - Replace Process Level Token",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-replace-process-level-token.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-a-password-when-a-computer-wakes-on-battery",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require a password when a computer  wakes (on battery)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-a-password-when-a-computer-wakes-on-battery.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-a-password-when-a-computer-wakes-plugged-in",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require a password when a computer  wakes (plugged in)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-a-password-when-a-computer-wakes-plugged-in.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-domain-users-to-elevate-when-setting-a-network-s-location",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require domain users to elevate when  setting a network's location",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-domain-users-to-elevate-when-setting-a-network-s-location.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-pin-for-pairing",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require PIN For Pairing",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-pin-for-pairing.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-platform-security-features",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require Platform Security Features",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-platform-security-features.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-secure-rpc-communication",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require secure RPC communication",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-secure-rpc-communication.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-security-device",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require Security Device",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-security-device.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-uefi-memory-attributes-table",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require UEFI Memory Attributes Table",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-uefi-memory-attributes-table.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-use-of-specific-security-layer-for-remote-rdp-connections",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require use of specific security layer  for remote (RDP) connections",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-use-of-specific-security-layer-for-remote-rdp-connections.json"
+        },
+        {
+          "slug": "cisv4-win-l1-require-user-authentication-for-remote-connections-by-using-network-level-authentication",
+          "sourcePolicy": "CISv4 - WIN - L1 - Require user authentication for remote  connections by using Network Level Authentication",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-require-user-authentication-for-remote-connections-by-using-network-level-authentication.json"
+        },
+        {
+          "slug": "cisv4-win-l1-restore-files-and-directories",
+          "sourcePolicy": "CISv4 - WIN - L1 - Restore Files And Directories",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-restore-files-and-directories.json"
+        },
+        {
+          "slug": "cisv4-win-l1-restrict-unauthenticated-rpc-clients",
+          "sourcePolicy": "CISv4 - WIN - L1 - Restrict Unauthenticated RPC clients",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-restrict-unauthenticated-rpc-clients.json"
+        },
+        {
+          "slug": "cisv4-win-l1-scheduled-install-day",
+          "sourcePolicy": "CISv4 - WIN - L1 - Scheduled Install Day",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-scheduled-install-day.json"
+        },
+        {
+          "slug": "cisv4-win-l1-set-client-connection-encryption-level",
+          "sourcePolicy": "CISv4 - WIN - L1 - Set client connection encryption level",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-set-client-connection-encryption-level.json"
+        },
+        {
+          "slug": "cisv4-win-l1-set-the-default-behavior-for-autorun",
+          "sourcePolicy": "CISv4 - WIN - L1 - Set the default behavior for AutoRun",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-set-the-default-behavior-for-autorun.json"
+        },
+        {
+          "slug": "cisv4-win-l1-shut-down-the-system",
+          "sourcePolicy": "CISv4 - WIN - L1 - Shut Down The System",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-shut-down-the-system.json"
+        },
+        {
+          "slug": "cisv4-win-l1-sign-in-and-lock-last-interactive-user-automatically-after-a-restart",
+          "sourcePolicy": "CISv4 - WIN - L1 - Sign-in and lock last interactive user  automatically after a restart",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-sign-in-and-lock-last-interactive-user-automatically-after-a-restart.json"
+        },
+        {
+          "slug": "cisv4-win-l1-specify-the-maximum-log-file-size-kb-application",
+          "sourcePolicy": "CISv4 - WIN - L1 - Specify the maximum log file size (KB) Application",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-specify-the-maximum-log-file-size-kb-application.json"
+        },
+        {
+          "slug": "cisv4-win-l1-specify-the-maximum-log-file-size-kb-security",
+          "sourcePolicy": "CISv4 - WIN - L1 - Specify the maximum log file size (KB) Security",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-specify-the-maximum-log-file-size-kb-security.json"
+        },
+        {
+          "slug": "cisv4-win-l1-specify-the-maximum-log-file-size-kb-setup",
+          "sourcePolicy": "CISv4 - WIN - L1 - Specify the maximum log file size (KB) Setup",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-specify-the-maximum-log-file-size-kb-setup.json"
+        },
+        {
+          "slug": "cisv4-win-l1-specify-the-maximum-log-file-size-kb-system",
+          "sourcePolicy": "CISv4 - WIN - L1 - Specify the maximum log file size (KB) System",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-specify-the-maximum-log-file-size-kb-system.json"
+        },
+        {
+          "slug": "cisv4-win-l1-system-audit-i-psec-driver",
+          "sourcePolicy": "CISv4 - WIN - L1 - System Audit I Psec Driver",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-system-audit-i-psec-driver.json"
+        },
+        {
+          "slug": "cisv4-win-l1-system-audit-other-system-events",
+          "sourcePolicy": "CISv4 - WIN - L1 - System Audit Other System Events",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-system-audit-other-system-events.json"
+        },
+        {
+          "slug": "cisv4-win-l1-system-audit-security-state-change",
+          "sourcePolicy": "CISv4 - WIN - L1 - System Audit Security State Change",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-system-audit-security-state-change.json"
+        },
+        {
+          "slug": "cisv4-win-l1-system-audit-system-integrity",
+          "sourcePolicy": "CISv4 - WIN - L1 - System Audit System Integrity",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-system-audit-system-integrity.json"
+        },
+        {
+          "slug": "cisv4-win-l1-take-ownership",
+          "sourcePolicy": "CISv4 - WIN - L1 - Take Ownership",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-take-ownership.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-app-notifications-on-the-lock-screen",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off app notifications on the lock  screen",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-app-notifications-on-the-lock-screen.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-autoplay",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off Autoplay",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-autoplay.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-background-refresh-of-group-policy",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off background refresh of Group  Policy",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-background-refresh-of-group-policy.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-data-execution-prevention-for-explorer",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off Data Execution Prevention for  Explorer",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-data-execution-prevention-for-explorer.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-downloading-of-print-drivers-over-http",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off downloading of print drivers over  HTTP",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-downloading-of-print-drivers-over-http.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-heap-termination-on-corruption",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off heap termination on corruption",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-heap-termination-on-corruption.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-internet-download-for-web-publishing-and-online-ordering-wizards",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off Internet download for Web  publishing and online ordering wizards",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-internet-download-for-web-publishing-and-online-ordering-wizards.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-multicast-name-resolution",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off multicast name resolution",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-multicast-name-resolution.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-picture-password-sign-in",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off picture password sign-in",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-picture-password-sign-in.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-shell-protocol-protected-mode",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off shell protocol protected mode",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-shell-protocol-protected-mode.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-the-offer-to-update-to-the-latest-version-of-windows",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off the offer to update to the latest  version of Windows",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-the-offer-to-update-to-the-latest-version-of-windows.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-off-toast-notifications-on-the-lock-screen-user",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn off toast notifications on the lock screen  (User)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-off-toast-notifications-on-the-lock-screen-user.json"
+        },
+        {
+          "slug": "cisv4-win-l1-turn-on-convenience-pin-sign-in",
+          "sourcePolicy": "CISv4 - WIN - L1 - Turn on convenience PIN sign-in",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-turn-on-convenience-pin-sign-in.json"
+        },
+        {
+          "slug": "cisv4-win-l1-user-account-control-behavior-of-the-elevation-prompt-for-administrators",
+          "sourcePolicy": "CISv4 - WIN - L1 - User Account Control: Behavior of the  elevation prompt for administrators",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-user-account-control-behavior-of-the-elevation-prompt-for-administrators.json"
+        },
+        {
+          "slug": "cisv4-win-l1-user-account-control-detect-application-installations-and-prompt-for-elevation",
+          "sourcePolicy": "CISv4 - WIN - L1 - User Account Control: Detect application  installations and prompt for elevation",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-user-account-control-detect-application-installations-and-prompt-for-elevation.json"
+        },
+        {
+          "slug": "cisv4-win-l1-user-account-control-run-all-administrators-in-admin-approval-mode",
+          "sourcePolicy": "CISv4 - WIN - L1 - User Account Control: Run all administrators  in Admin Approval Mode",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-user-account-control-run-all-administrators-in-admin-approval-mode.json"
+        },
+        {
+          "slug": "cisv4-win-l1-user-account-control-switch-to-the-secure-desktop-when-prompting-for-elevation",
+          "sourcePolicy": "CISv4 - WIN - L1 - User Account Control: Switch to the secure  desktop when prompting for elevation",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-user-account-control-switch-to-the-secure-desktop-when-prompting-for-elevation.json"
+        },
+        {
+          "slug": "cisv4-win-l1-user-account-control-use-admin-approval-mode",
+          "sourcePolicy": "CISv4 - WIN - L1 - User Account Control: Use Admin Approval  Mode",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-user-account-control-use-admin-approval-mode.json"
+        },
+        {
+          "slug": "cisv4-win-l1-wdigest-authentication",
+          "sourcePolicy": "CISv4 - WIN - L1 - WDigest Authentication",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l1-wdigest-authentication.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-camera",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Camera",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-camera.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-cloud-search",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Cloud Search",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-cloud-search.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-cross-device-clipboard",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Cross Device Clipboard",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-cross-device-clipboard.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-font-providers",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Font Providers",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-font-providers.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-location",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Location",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-location.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-message-sync",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Message Sync",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-message-sync.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-online-tips",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Online Tips",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-online-tips.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-remote-server-management-through-winrm-service",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow remote server management  through WinRM Service",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-remote-server-management-through-winrm-service.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-remote-shell-access",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Remote Shell Access",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-remote-shell-access.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-search-highlights",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow search highlights",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-search-highlights.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-shared-user-app-data",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Shared User App Data",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-shared-user-app-data.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-suggested-apps-in-windows-ink-workspace",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow suggested apps in Windows Ink  Workspace",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-suggested-apps-in-windows-ink-workspace.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-users-to-connect-remotely-by-using-remote-desktop-services",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow users to connect remotely by  using Remote Desktop Services",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-users-to-connect-remotely-by-using-remote-desktop-services.json"
+        },
+        {
+          "slug": "cisv4-win-l2-allow-windows-spotlight-user",
+          "sourcePolicy": "CISv4 - WIN - L2 - Allow Windows Spotlight (User)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-allow-windows-spotlight-user.json"
+        },
+        {
+          "slug": "cisv4-win-l2-configuration-of-wireless-settings-using-windows-connect-now",
+          "sourcePolicy": "CISv4 - WIN - L2 - Configuration of wireless settings using  Windows Connect Now",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-configuration-of-wireless-settings-using-windows-connect-now.json"
+        },
+        {
+          "slug": "cisv4-win-l2-configure-watson-events",
+          "sourcePolicy": "CISv4 - WIN - L2 - Configure Watson events",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-configure-watson-events.json"
+        },
+        {
+          "slug": "cisv4-win-l2-devices-prevent-users-from-installing-printer-drivers-when-connecting-to-shared-printers",
+          "sourcePolicy": "CISv4 - WIN - L2 - Devices: Prevent users from installing printer  drivers when connecting to shared printers",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-devices-prevent-users-from-installing-printer-drivers-when-connecting-to-shared-printers.json"
+        },
+        {
+          "slug": "cisv4-win-l2-disable-advertising-id",
+          "sourcePolicy": "CISv4 - WIN - L2 - Disable Advertising ID",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-disable-advertising-id.json"
+        },
+        {
+          "slug": "cisv4-win-l2-disable-enterprise-auth-proxy",
+          "sourcePolicy": "CISv4 - WIN - L2 - Disable Enterprise Auth Proxy",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-disable-enterprise-auth-proxy.json"
+        },
+        {
+          "slug": "cisv4-win-l2-disable-one-drive-file-sync",
+          "sourcePolicy": "CISv4 - WIN - L2 - Disable One Drive File Sync",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-disable-one-drive-file-sync.json"
+        },
+        {
+          "slug": "cisv4-win-l2-disable-store-originated-apps",
+          "sourcePolicy": "CISv4 - WIN - L2 - Disable Store Originated Apps",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-disable-store-originated-apps.json"
+        },
+        {
+          "slug": "cisv4-win-l2-disallow-cloud-notification",
+          "sourcePolicy": "CISv4 - WIN - L2 - Disallow Cloud Notification",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-disallow-cloud-notification.json"
+        },
+        {
+          "slug": "cisv4-win-l2-disallow-copying-of-user-input-methods-to-the-system-account-for-sign-in",
+          "sourcePolicy": "CISv4 - WIN - L2 - Disallow copying of user input methods to  the system account for sign-in",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-disallow-copying-of-user-input-methods-to-the-system-account-for-sign-in.json"
+        },
+        {
+          "slug": "cisv4-win-l2-disallow-kms-client-online-avs-validation",
+          "sourcePolicy": "CISv4 - WIN - L2 - Disallow KMS Client Online AVS Validation",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-disallow-kms-client-online-avs-validation.json"
+        },
+        {
+          "slug": "cisv4-win-l2-do-not-allow-com-port-redirection",
+          "sourcePolicy": "CISv4 - WIN - L2 - Do not allow COM port redirection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-do-not-allow-com-port-redirection.json"
+        },
+        {
+          "slug": "cisv4-win-l2-do-not-allow-lpt-port-redirection",
+          "sourcePolicy": "CISv4 - WIN - L2 - Do not allow LPT port redirection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-do-not-allow-lpt-port-redirection.json"
+        },
+        {
+          "slug": "cisv4-win-l2-do-not-allow-supported-plug-and-play-device-redirection",
+          "sourcePolicy": "CISv4 - WIN - L2 - Do not allow supported Plug and Play  device redirection",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-do-not-allow-supported-plug-and-play-device-redirection.json"
+        },
+        {
+          "slug": "cisv4-win-l2-enable-convert-warn-to-block",
+          "sourcePolicy": "CISv4 - WIN - L2 - Enable Convert Warn To Block",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-enable-convert-warn-to-block.json"
+        },
+        {
+          "slug": "cisv4-win-l2-enable-file-hash-computation",
+          "sourcePolicy": "CISv4 - WIN - L2 - Enable File Hash Computation",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-enable-file-hash-computation.json"
+        },
+        {
+          "slug": "cisv4-win-l2-join-microsoft-maps",
+          "sourcePolicy": "CISv4 - WIN - L2 - Join Microsoft MAPS",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-join-microsoft-maps.json"
+        },
+        {
+          "slug": "cisv4-win-l2-log-on-as-batch-job",
+          "sourcePolicy": "CISv4 - WIN - L2 - Log On As Batch Job",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-log-on-as-batch-job.json"
+        },
+        {
+          "slug": "cisv4-win-l2-microsoft-support-diagnostic-tool-turn-on-msdt-interactive-communication-with-support-provider",
+          "sourcePolicy": "CISv4 - WIN - L2 - Microsoft Support Diagnostic Tool: Turn  on MSDT interactive communication with support provider",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-microsoft-support-diagnostic-tool-turn-on-msdt-interactive-communication-with-support-provider.json"
+        },
+        {
+          "slug": "cisv4-win-l2-mss-disablesavepassword-prevent-the-dial-up-password-from-being-saved-recommended",
+          "sourcePolicy": "CISv4 - WIN - L2 - MSS: (DisableSavePassword) Prevent the dial up password from being saved (recommended)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-mss-disablesavepassword-prevent-the-dial-up-password-from-being-saved-recommended.json"
+        },
+        {
+          "slug": "cisv4-win-l2-mss-keepalivetime-how-often-keep-alive-packets-are-sent-in-milliseconds",
+          "sourcePolicy": "CISv4 - WIN - L2 - MSS: (KeepAliveTime) How often keep-alive  packets are sent in milliseconds",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-mss-keepalivetime-how-often-keep-alive-packets-are-sent-in-milliseconds.json"
+        },
+        {
+          "slug": "cisv4-win-l2-mss-performrouterdiscovery-allow-irdp-to-detect-and-configure-default-gateway-addresses-could-lead-to-dos",
+          "sourcePolicy": "CISv4 - WIN - L2 - MSS: (PerformRouterDiscovery) Allow IRDP to  detect and configure Default Gateway addresses (could lead to  DoS)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-mss-performrouterdiscovery-allow-irdp-to-detect-and-configure-default-gateway-addresses-could-lead-to-dos.json"
+        },
+        {
+          "slug": "cisv4-win-l2-mss-tcpmaxdataretransmissions-ipv6-how-many-times-unacknowledged-data-is-retransmitted",
+          "sourcePolicy": "CISv4 - WIN - L2 - MSS: (TcpMaxDataRetransmissions IPv6)  How many times unacknowledged data is retransmitted",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-mss-tcpmaxdataretransmissions-ipv6-how-many-times-unacknowledged-data-is-retransmitted.json"
+        },
+        {
+          "slug": "cisv4-win-l2-mss-tcpmaxdataretransmissions-how-many-times-unacknowledged-data-is-retransmitted",
+          "sourcePolicy": "CISv4 - WIN - L2 - MSS: (TcpMaxDataRetransmissions) How  many times unacknowledged data is retransmitted",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-mss-tcpmaxdataretransmissions-how-many-times-unacknowledged-data-is-retransmitted.json"
+        },
+        {
+          "slug": "cisv4-win-l2-prevent-codec-download-user",
+          "sourcePolicy": "CISv4 - WIN - L2 - Prevent Codec Download (User)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-prevent-codec-download-user.json"
+        },
+        {
+          "slug": "cisv4-win-l2-prevent-internet-explorer-security-prompt-for-windows-installer-scripts",
+          "sourcePolicy": "CISv4 - WIN - L2 - Prevent Internet Explorer security prompt  for Windows Installer scripts",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-prevent-internet-explorer-security-prompt-for-windows-installer-scripts.json"
+        },
+        {
+          "slug": "cisv4-win-l2-prohibit-access-of-the-windows-connect-now-wizards",
+          "sourcePolicy": "CISv4 - WIN - L2 - Prohibit access of the Windows Connect  Now wizards",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-prohibit-access-of-the-windows-connect-now-wizards.json"
+        },
+        {
+          "slug": "cisv4-win-l2-remote-encryption-protection-aggressiveness",
+          "sourcePolicy": "CISv4 - WIN - L2 - Remote Encryption Protection  Aggressiveness",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-remote-encryption-protection-aggressiveness.json"
+        },
+        {
+          "slug": "cisv4-win-l2-restrict-clipboard-transfer-from-server-to-client",
+          "sourcePolicy": "CISv4 - WIN - L2 - Restrict clipboard transfer from server  to client",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-restrict-clipboard-transfer-from-server-to-client.json"
+        },
+        {
+          "slug": "cisv4-win-l2-set-time-limit-for-active-but-idle-remote-desktop-services-sessions",
+          "sourcePolicy": "CISv4 - WIN - L2 - Set time limit for active but idle  Remote Desktop Services sessions",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-set-time-limit-for-active-but-idle-remote-desktop-services-sessions.json"
+        },
+        {
+          "slug": "cisv4-win-l2-set-time-limit-for-disconnected-sessions",
+          "sourcePolicy": "CISv4 - WIN - L2 - Set time limit for disconnected  sessions",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-set-time-limit-for-disconnected-sessions.json"
+        },
+        {
+          "slug": "cisv4-win-l2-support-device-authentication-using-certificate",
+          "sourcePolicy": "CISv4 - WIN - L2 - Support device authentication using  certificate",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-support-device-authentication-using-certificate.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-access-to-the-store",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off access to the Store",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-access-to-the-store.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-help-experience-improvement-program-user",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off Help Experience Improvement  Program (User)",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-help-experience-improvement-program-user.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-internet-connection-wizard-if-url-connection-is-referring-to-microsoft-com",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off Internet Connection Wizard if  URL connection is referring to Microsoft.com",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-internet-connection-wizard-if-url-connection-is-referring-to-microsoft-com.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-printing-over-http",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off printing over HTTP",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-printing-over-http.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-push-to-install-service",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off Push To Install service",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-push-to-install-service.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-registration-if-url-connection-is-referring-to-microsoft-com",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off Registration if URL connection is  referring to Microsoft.com'",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-registration-if-url-connection-is-referring-to-microsoft-com.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-search-companion-content-file-updates",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off Search Companion content file  updates",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-search-companion-content-file-updates.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-the-order-prints-picture-task",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off the \"Order Prints\" picture task",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-the-order-prints-picture-task.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-the-publish-to-web",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off the \"Publish to Web",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-the-publish-to-web.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-the-store-application",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off the Store application",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-the-store-application.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-the-windows-messenger-customer-experience-improvement-program",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off the Windows Messenger  Customer Experience Improvement Program",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-the-windows-messenger-customer-experience-improvement-program.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-windows-customer-experience-improvement-program",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off Windows Customer Experience  Improvement Program",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-windows-customer-experience-improvement-program.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-off-windows-error-reporting",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn off Windows Error Reporting",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-off-windows-error-reporting.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-on-mapper-i-o-lltdio-driver",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn on Mapper I/O (LLTDIO) driver",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-on-mapper-i-o-lltdio-driver.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-on-powershell-script-block-logging",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn on PowerShell Script Block Logging",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-on-powershell-script-block-logging.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-on-powershell-transcription",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn on PowerShell Transcription",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-on-powershell-transcription.json"
+        },
+        {
+          "slug": "cisv4-win-l2-turn-on-responder-rspndr-driver",
+          "sourcePolicy": "CISv4 - WIN - L2 - Turn on Responder (RSPNDR) driver",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-turn-on-responder-rspndr-driver.json"
+        },
+        {
+          "slug": "cisv4-win-l2-upload-user-activities",
+          "sourcePolicy": "CISv4 - WIN - L2 - Upload User Activities",
+          "settingCount": 1,
+          "file": "cis-windows11-v4/cisv4-win-l2-upload-user-activities.json"
         }
       ]
     }

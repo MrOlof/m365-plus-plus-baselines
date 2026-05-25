@@ -1,0 +1,84 @@
+{
+  "sourcePolicy": "CISv4 - WIN - L1 - Hardened UNC Paths",
+  "settingCount": 1,
+  "settings": [
+    {
+      "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": [
+            {
+              "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingCollectionInstance",
+              "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths",
+              "settingInstanceTemplateReference": null,
+              "groupSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationGroupSettingValue)",
+              "groupSettingCollectionValue": [
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+                  "settingValueTemplateReference": null,
+                  "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                  "children": [
+                    {
+                      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                      "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
+                      "settingInstanceTemplateReference": null,
+                      "simpleSettingValue": {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                        "settingValueTemplateReference": null,
+                        "value": "\\\\*\\NETLOGON RequireMutualAuthentication=1"
+                      }
+                    },
+                    {
+                      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                      "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value",
+                      "settingInstanceTemplateReference": null,
+                      "simpleSettingValue": {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                        "settingValueTemplateReference": null,
+                        "value": " RequireIntegrity=1,RequirePrivacy=1"
+                      }
+                    }
+                  ]
+                },
+                {
+                  "@odata.type": "#microsoft.graph.deviceManagementConfigurationGroupSettingValue",
+                  "settingValueTemplateReference": null,
+                  "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+                  "children": [
+                    {
+                      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                      "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_key",
+                      "settingInstanceTemplateReference": null,
+                      "simpleSettingValue": {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                        "settingValueTemplateReference": null,
+                        "value": "\\\\*\\SYSVOL RequireMutualAuthentication=1"
+                      }
+                    },
+                    {
+                      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingInstance",
+                      "settingDefinitionId": "device_vendor_msft_policy_config_connectivity_hardeneduncpaths_pol_hardenedpaths_value",
+                      "settingInstanceTemplateReference": null,
+                      "simpleSettingValue": {
+                        "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+                        "settingValueTemplateReference": null,
+                        "value": "RequireIntegrity=1,RequirePrivacy=1"
+                      }
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

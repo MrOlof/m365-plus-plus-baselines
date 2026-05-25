@@ -1,0 +1,22 @@
+{
+  "sourcePolicy": "CISv4 - WIN - L1 - Load Unload Device Drivers",
+  "settingCount": 1,
+  "settings": [
+    {
+      "settingDefinitionId": "device_vendor_msft_policy_config_userrights_loadunloaddevicedrivers",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_userrights_loadunloaddevicedrivers",
+        "settingInstanceTemplateReference": null,
+        "simpleSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSimpleSettingValue)",
+        "simpleSettingCollectionValue": [
+          {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "settingValueTemplateReference": null,
+            "value": "*S-1-5-32-544 "
+          }
+        ]
+      }
+    }
+  ]
+}

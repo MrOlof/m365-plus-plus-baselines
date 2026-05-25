@@ -1,0 +1,21 @@
+{
+  "sourcePolicy": "CISv4 - WIN - L2 - Turn off Help Experience Improvement  Program (User)",
+  "settingCount": 1,
+  "settings": [
+    {
+      "settingDefinitionId": "user_vendor_msft_policy_config_admx_helpandsupport_hpimplicitfeedback",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingInstance",
+        "settingDefinitionId": "user_vendor_msft_policy_config_admx_helpandsupport_hpimplicitfeedback",
+        "settingInstanceTemplateReference": null,
+        "choiceSettingValue": {
+          "@odata.type": "#microsoft.graph.deviceManagementConfigurationChoiceSettingValue",
+          "settingValueTemplateReference": null,
+          "value": "user_vendor_msft_policy_config_admx_helpandsupport_hpimplicitfeedback_1",
+          "children@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSettingInstance)",
+          "children": []
+        }
+      }
+    }
+  ]
+}
