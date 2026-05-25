@@ -29,11 +29,17 @@ PowerShell with the `Microsoft.Graph.Authentication` module.
       --folder ms-windows-25h2 --policy-name "Security Baseline for Windows 10 and later - 25H2"`
    (override `--credit/--license/--source` for a self-authored baseline.)
 
-### Then, for ALL baselines — resolve friendly names
+### Then, for ALL baselines — resolve friendly names + value labels
 3. `python tools/extract-ids.py`            # writes tools/ids-to-resolve.json (only the NEW ids)
-4. `.\tools\fetch-displaynames.ps1`         # Graph sign-in; writes tools/resolved-names.json
-5. `python tools/merge-definitions.py --names tools/resolved-names.json`
-6. `git add -A && git commit -m "..." && git push`
+4. `.\tools\fetch-displaynames.ps1`         # Graph sign-in; writes tools/resolved-names.json (setting NAMES)
+5. `python tools/merge-definitions.py --names tools/resolved-names.json`   # -> definitions.json
+6. `.\tools\fetch-value-labels.ps1`         # Graph; writes value-labels.json (choice VALUE labels for all baseline IDs)
+7. `git add -A && git commit -m "..." && git push`
+
+Two display maps: `definitions.json` = setting names; `value-labels.json` = option value labels
+(itemId -> label). The extension uses both so rows read friendly on BOTH name and value.
+`fetch-value-labels.ps1` re-reads all IDs from definitions.json each run, so re-run it after any
+baseline add/update (it's idempotent).
 
 The extension fetches `manifest.json` + the selected policy files + `definitions.json`
 at runtime. Adding a baseline is pure data here — no extension change. `definitions.json`
