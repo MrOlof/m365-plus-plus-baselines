@@ -1,0 +1,90 @@
+{
+  "@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies(assignments(),settings())/$entity",
+  "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicy",
+  "@odata.id": "deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')",
+  "@odata.editLink": "deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')",
+  "createdDateTime@odata.type": "#DateTimeOffset",
+  "createdDateTime": "2025-08-28T14:09:09.8088825Z",
+  "creationSource": null,
+  "description": "This policy setting determines which user accounts will have the right to attach a \ndebugger to any process or to the kernel, which provides complete access to sensitive and critical operating system components. Developers who are debugging their own applications do not need to be assigned this user right; however, developers who are debugging new system components will need it.\nThe recommended state for this setting is: *S-1-5-32-544 (Administrators).",
+  "lastModifiedDateTime@odata.type": "#DateTimeOffset",
+  "lastModifiedDateTime": "2025-08-28T14:09:09.8088825Z",
+  "name": "CISv4 - WIN - L1 - Debug Programs",
+  "platforms@odata.type": "#microsoft.graph.deviceManagementConfigurationPlatforms",
+  "platforms": "windows10",
+  "priorityMetaData": null,
+  "roleScopeTagIds@odata.type": "#Collection(String)",
+  "roleScopeTagIds": [
+    "0"
+  ],
+  "settingCount": 1,
+  "technologies@odata.type": "#microsoft.graph.deviceManagementConfigurationTechnologies",
+  "technologies": "mdm",
+  "id": "e35548c4-ba6a-4c7b-afd2-1fc0e64480ac",
+  "templateReference": {
+    "@odata.type": "#microsoft.graph.deviceManagementConfigurationPolicyTemplateReference",
+    "templateId": "",
+    "templateFamily@odata.type": "#microsoft.graph.deviceManagementConfigurationTemplateFamily",
+    "templateFamily": "none",
+    "templateDisplayName": null,
+    "templateDisplayVersion": null
+  },
+  "assignments@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/assignments",
+  "assignments@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/assignments/$ref",
+  "assignments@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/assignments",
+  "assignments": [],
+  "settings@odata.context": "https://graph.microsoft.com/beta/$metadata#deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/settings",
+  "settings@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/settings/$ref",
+  "settings@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/settings",
+  "settings": [
+    {
+      "@odata.type": "#microsoft.graph.deviceManagementConfigurationSetting",
+      "@odata.id": "deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/settings('0')",
+      "@odata.editLink": "deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/settings('0')",
+      "id": "0",
+      "settingInstance": {
+        "@odata.type": "#microsoft.graph.deviceManagementConfigurationSimpleSettingCollectionInstance",
+        "settingDefinitionId": "device_vendor_msft_policy_config_userrights_debugprograms",
+        "settingInstanceTemplateReference": null,
+        "simpleSettingCollectionValue@odata.type": "#Collection(microsoft.graph.deviceManagementConfigurationSimpleSettingValue)",
+        "simpleSettingCollectionValue": [
+          {
+            "@odata.type": "#microsoft.graph.deviceManagementConfigurationStringSettingValue",
+            "settingValueTemplateReference": null,
+            "value": "*S-1-5-32-544"
+          }
+        ]
+      },
+      "settingDefinitions@odata.associationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/settings('0')/settingDefinitions/$ref",
+      "settingDefinitions@odata.navigationLink": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/settings('0')/settingDefinitions"
+    }
+  ],
+  "#microsoft.graph.assign": {
+    "title": "microsoft.graph.assign",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/microsoft.graph.assign"
+  },
+  "#microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/microsoft.graph.clearEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.createCopy": {
+    "title": "microsoft.graph.createCopy",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/microsoft.graph.createCopy"
+  },
+  "#microsoft.graph.reorder": {
+    "title": "microsoft.graph.reorder",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/microsoft.graph.reorder"
+  },
+  "#microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/microsoft.graph.retrieveEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.setEnrollmentTimeDeviceMembershipTarget": {
+    "title": "microsoft.graph.setEnrollmentTimeDeviceMembershipTarget",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/microsoft.graph.setEnrollmentTimeDeviceMembershipTarget"
+  },
+  "#microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy": {
+    "title": "microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy",
+    "target": "https://graph.microsoft.com/beta/deviceManagement/configurationPolicies('e35548c4-ba6a-4c7b-afd2-1fc0e64480ac')/microsoft.graph.retrieveLatestUpgradeDefaultBaselinePolicy"
+  }
+}
